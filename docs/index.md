@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# YMO 영인모빌리티 기술자료실
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+안녕하세요 👋  
+영인모빌리티의 Unitree 로봇 기술지원 문서에 오신 것을 환영합니다.
 
-## Commands
+- 4족보행 로봇 Go2
+- 휴먼외드 로봇 G1
+- 자주 묻는 질문(FAQ)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+로봇 관련 문의사항이나 기술지원이 필요하시면 언제든지 연락주시기 바랍니다!  
+응용지원팀 서연우 사원: 010-9833-7217
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**영인모빌리티 응용지원팀 드림**
