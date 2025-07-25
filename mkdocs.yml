@@ -1,0 +1,17 @@
+# mkdocs.yml
+site_name: YoungIn Mobility Support
+theme:
+  name: material
+  language: ko
+
+nav:
+  - 홈: index.md
+  - Go2:
+      - 하드웨어: go2/hardware.md
+      - 앱: go2/app.md
+      - 개발: go2/develop.md
+  - G1:
+      - 하드웨어: g1/hardware.md
+  - 자주 묻는 질문:
+      - Wi-Fi 문제: faq/wifi.md
+      - 펌웨어 업데이트: faq/firmware.md
