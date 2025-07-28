@@ -16,3 +16,7 @@
 ---
 
 **영인모빌리티 응용지원팀 드림**
+
+<h2 style="font-weight: 900;">🔥새로운 휴머노이드 R1 출시‼️</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
