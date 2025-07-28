@@ -1,5 +1,6 @@
 # mkdocs.yml
 site_name: YoungIn Mobility Support
+site_url: https://ynu09.github.io/YMO-support/
 theme:
   name: material
   language: ko

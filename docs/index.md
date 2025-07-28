@@ -1,6 +1,6 @@
 # YMO 영인모빌리티 기술자료실
 
-![YMO 이미지](images/ymo.png)
+![YMO 이미지](/YMO-support/images/ymo.png)
 
 안녕하세요 👋  
 영인모빌리티의 Unitree 로봇 기술지원 문서에 오신 것을 환영합니다.
