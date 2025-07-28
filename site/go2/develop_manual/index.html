@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://ynu09.github.io/YMO-support/go2/develop_manual/">
       
       
-        <link rel="prev" href="../model/">
+        <link rel="prev" href="../controller/">
       
       
         <link rel="next" href="../app_manual/">
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ip" class="md-skip">
+        <a href="#_1" class="md-skip">
           콘텐츠로 이동
         </a>
       
@@ -278,6 +278,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../controller/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    조종기 manual
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -327,6 +350,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      개발환경
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ip" class="md-nav__link">
     <span class="md-ellipsis">
       IP
@@ -339,6 +371,15 @@
   <a href="#electrical-interface" class="md-nav__link">
     <span class="md-ellipsis">
       Electrical interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pc" class="md-nav__link">
+    <span class="md-ellipsis">
+      사용자 PC와 통신
     </span>
   </a>
   
@@ -391,10 +432,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
         
           
-          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
             
   
   
@@ -407,8 +448,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             Q&A
           </label>
@@ -682,6 +723,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      개발환경
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ip" class="md-nav__link">
     <span class="md-ellipsis">
       IP
@@ -694,6 +744,15 @@
   <a href="#electrical-interface" class="md-nav__link">
     <span class="md-ellipsis">
       Electrical interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pc" class="md-nav__link">
+    <span class="md-ellipsis">
+      사용자 PC와 통신
     </span>
   </a>
   
@@ -717,6 +776,8 @@
 
   <h1>개발 manual</h1>
 
+<h3 id="_1">개발환경</h3>
+<p>Ubuntu 20.04 ROS2 Foxy 권장드립니다.</p>
 <h3 id="ip">IP</h3>
 <p>Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP는 '192.168.123.18'입니다. 사용자는 메인보드에 접속할 수 없으며, 개발용 PC에만 접속 가능합니다.  </p>
 <pre><code>- ID: unitree  
@@ -724,6 +785,8 @@
 </code></pre>
 <h3 id="electrical-interface">Electrical interface</h3>
 <p><img alt="dock 인터페이스" src="/YMO-support/images/go2_electrical_interface.png" /></p>
+<h3 id="pc">사용자 PC와 통신</h3>
+<p>사용자 PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.</p>
 
 
 

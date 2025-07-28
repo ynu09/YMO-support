@@ -13,11 +13,12 @@ nav:
       - 개발 manual: go2/develop_manual.md
       - App manual: go2/app_manual.md
       - Q&A:
-        - 하드웨어: go2/hardware.md
-        - 앱: go2/app.md
-        - 개발: go2/develop.md
+        - 하드웨어: go2/Q&A/hardware.md
+        - 앱: go2/Q&A/app.md
+        - 개발: go2/Q&A/develop.md
   - G1:
       - 모델 소개: g1/model.md
-      - 하드웨어: g1/hardware.md
+      - Q&A:
+        - 하드웨어: g1/Q&A/hardware.md
   - Z1:
       - 모델 소개: z1/model.md
