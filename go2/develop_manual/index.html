@@ -385,6 +385,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#l1" class="md-nav__link">
+    <span class="md-ellipsis">
+      L1 라이다
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation용 라이다
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -462,7 +480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hardware/" class="md-nav__link">
+      <a href="../Q%26A/hardware/" class="md-nav__link">
         
   
   
@@ -485,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../app/" class="md-nav__link">
+      <a href="../Q%26A/app/" class="md-nav__link">
         
   
   
@@ -508,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../develop/" class="md-nav__link">
+      <a href="../Q%26A/develop/" class="md-nav__link">
         
   
   
@@ -606,8 +624,46 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Q&A
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Q&A
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../g1/hardware/" class="md-nav__link">
+      <a href="../../g1/Q%26A/hardware/" class="md-nav__link">
         
   
   
@@ -618,6 +674,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -758,6 +822,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#l1" class="md-nav__link">
+    <span class="md-ellipsis">
+      L1 라이다
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation용 라이다
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -787,6 +869,61 @@
 <p><img alt="dock 인터페이스" src="/YMO-support/images/go2_electrical_interface.png" /></p>
 <h3 id="pc">사용자 PC와 통신</h3>
 <p>사용자 PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.</p>
+<h3 id="l1">L1 라이다</h3>
+<ol>
+<li>topic name: 'rt/utlidar/cloud'</li>
+<li>coordinate sys: 'utlidar_lidar'</li>
+<li>
+<p>DDS를 사용하여 point cloud 데이터 얻기</p>
+<ul>
+<li>unitree_sdk2를 설치합니다.</li>
+<li>
+<p>'rt/utlidar/cloud' 토픽 subscribe하면 관련 정보를 출력하실 수 있습니다. </p>
+<p><code>$ ./subscribe_pointcloud</code><br />
+<code>Received a raw cloud here!</code><br />
+<code>stamp = 1683713030.572689533</code><br />
+<code>frame = utlidar_lidar</code><br />
+<code>points number = 1402</code>  </p>
+</li>
+</ul>
+</li>
+<li>
+<p>rviz2 도구 실행하여 point cloud 시각화</p>
+<ul>
+<li>먼저, <code>$ rviz2</code>를 실행하세요.</li>
+<li>[Fixed Frame]을 'odom'으로 설정합니다.</li>
+<li>왼쪽 하단의 'Add'를 클릭하고 'By topic'을 선택한 후 해당 point cloud 토픽인 '/utlidar/cloud_deskewed'를 선택합니다. </li>
+<li>[Decay Time]을 1초 이상으로 설정하여 특정 시간동안 데이터를 저장할 수 있습니다. </li>
+</ul>
+<p><img alt="RVIZ2 이미지" src="/YMO-support/images/go2_rviz2.png" /></p>
+</li>
+<li>
+<p>L1 LiDAR 끄는 방법<br />
+: L1 LiDAR는 기본적으로 로봇 전원을 켜면 자동으로 시작되도록 설정되어 있습니다. LiDAR를 끄고 싶은 경우(회전 중지), 제어 명령을 publish하여 중지할 수 있습니다. </p>
+<ul>
+<li>DDS topic: 'rt/utlidar/switch'</li>
+<li>문자열로 'ON / OFF' 내용 전송</li>
+</ul>
+</li>
+</ol>
+<h3 id="navigation">Navigation용 라이다</h3>
+<ol>
+<li>
+<p>LiDAR IP
+: '192.168.123.20'입니다.</p>
+</li>
+<li>
+<p>참고 자료</p>
+<ul>
+<li><a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a></li>
+<li><a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> </li>
+<li><a href="https://github.com/Livox-SDK/Livox-SDK2">Livox-SDK2</a></li>
+<li><a href="https://github.com/Livox-SDK/livox_ros_driver2">livox_ros_driver2</a></li>
+<li><a href="https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service">Unitree SLAM/Navigation 인터페이스</a></li>
+<li><a href="https://www.bilibili.com/video/BV1kyymYWENd/?buvid=XUE9766E8663F0CF09546CE5B13781F280523">Unitree - SLAM 설명영상</a></li>
+</ul>
+</li>
+</ol>
 
 
 
