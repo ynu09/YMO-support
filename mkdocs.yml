@@ -9,6 +9,7 @@ nav:
   - 홈: index.md
   - Go2:
       - 모델 소개: go2/model.md
+      - 조종기 manual: go2/controller.md
       - 개발 manual: go2/develop_manual.md
       - App manual: go2/app_manual.md
       - Q&A:
