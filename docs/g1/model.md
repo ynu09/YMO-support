@@ -1,4 +1,6 @@
-| 모델 | 설명 |  활용도 | 참고 |
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GzX1qOIO1bE" frameborder="0" allowfullscreen></iframe>
+
+| 모델 | 설명 | 활용도 | 참고 |
 |------|-----------------------------------------|----------|-------|    
 | G1 Universal |	2차 개발 불가능, 가장 기본적인 모델 | 체험용(ex-어린이과학관) | 컨트롤러로만 작동 |
 | G1 Edu Standard |	2차 개발 가능 | 개발용 | 모형손 |

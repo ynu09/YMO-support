@@ -15,3 +15,5 @@ nav:
   - G1:
       - 모델 소개: g1/model.md
       - 하드웨어: g1/hardware.md
+  - Z1:
+      - 모델 소개: z1/model.md
