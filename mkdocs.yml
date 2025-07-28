@@ -9,9 +9,11 @@ nav:
   - 홈: index.md
   - Go2:
       - 모델 소개: go2/model.md
-      - 하드웨어: go2/hardware.md
-      - 앱: go2/app.md
-      - 개발: go2/develop.md
+      - 앱 사용법: go2/app_manual.md
+      - Q&A:
+        - 하드웨어: go2/hardware.md
+        - 앱: go2/app.md
+        - 개발: go2/develop.md
   - G1:
       - 모델 소개: g1/model.md
       - 하드웨어: g1/hardware.md

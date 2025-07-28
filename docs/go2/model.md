@@ -6,5 +6,5 @@
 | <span style="color: red; font-weight: bold;">[추천‼️]</span> Go2 Pro | 2차 개발 불가능 | 체험용(ex-어린이과학관) | Go2 Air 대비 모터 출력 ⬆️ |  
 | Go2 Edu basic | 2차 개발 가능, Jetson Orin Nano (40tops) | 개발용 | 8GB |  
 | Go2 Edu Plus | 2차 개발 가능, Jetson Orin NX (100tops) | 개발용 | 16GB |  
-| <span style="color: red; font-weight: bold;">[추천‼️]</span> Go2 Edu Plus + Mid360 (LiDAR) | 2차 개발 가능, Jetson Orin NX (100tops) + Mid360 LiDAR | 개발용 | 내비게이션용 라이다 |  
-| Go2 Edu Plus + Hesai XT16 (LiDAR) | 2차 개발 가능, Jetson Orin NX (100tops) + Hesai XT16 LiDAR | 개발용 | 내비게이션용 라이다 |  
+| <span style="color: red; font-weight: bold;">[추천‼️]</span> Go2 Edu Plus + Mid360 (LiDAR) | 2차 개발 가능, Jetson Orin NX (100tops) + Mid360 LiDAR | 개발용 | Navigation용 LiDAR |  
+| Go2 Edu Plus + Hesai XT16 (LiDAR) | 2차 개발 가능, Jetson Orin NX (100tops) + Hesai XT16 LiDAR | 개발용 | Navigation용 LiDAR |  
