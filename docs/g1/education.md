@@ -144,7 +144,7 @@
     - 모션 종류: Handshake, High Five, Hug, High Wave, Clap, Face Wave, Left Kiss, Arm heart, Right Heart, Hands Up, X-Ray, Right Hand Up, Reject
 
     <img src="/YMO-support/images/g1_education/camera.jpg" width="700" height="auto">
-    
+
 2. 왼쪽 조종키: 앞/뒤/좌/우 이동
 3. 오른쪽 조종키: 방향 전환
 4. 카메라/영상 버튼 클릭 시 사진 촬영 가능합니다.
@@ -153,13 +153,24 @@
 
 ### 음성인식
 1. “Function-BenBen”으로 들어갑니다.
+
+    <img src="/YMO-support/images/g1_education/benben1.jpg" width="700" height="auto">
+
 2. GPT처럼 로봇과 대화할 수 있으며, 간단 명령이 가능합니다.
     
     🚨**주의!** <span style="color: red;">영어, 중국어만 지원합니다.</span>  
     ex) 명령 예시: “Move forward one step”
 
+    <img src="/YMO-support/images/g1_education/benben2.jpg" width="700" height="auto">
+
 ---
 
 ### Calibration 방법
 1. “Device-Data-Robot”으로 들어갑니다.
+
+    <img src="/YMO-support/images/g1_education/calibration1.png" width="700" height="auto">
+    <img src="/YMO-support/images/g1_education/calibration2.png" width="700" height="auto">
+    <img src="/YMO-support/images/g1_education/calibration3.jpg" width="700" height="auto">
+
+
 2. 로봇의 걸음이 이상하거나 모터가 오작동할 경우, 앱 안내에 따라 Calibration을 진행합니다.
