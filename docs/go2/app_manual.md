@@ -8,7 +8,16 @@
 1. AP mode: 스마트폰을 로봇개의 핫스팟에 연결합니다. 반드시, 데이터를 끈 상태여야 합니다. wifi 설정으로 들어가서 로봇개 이름을 찾습니다. 
 2. Wi-Fi mode: 공유기를 통해 로봇개를 연결합니다. 현재 스마트폰에 접속된 wifi로 접속해야 하며, 해당 wifi의 비밀번호를 입력해주세요. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cgELpVAIx9c" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/cgELpVAIx9c" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### 언바인드 방법
+로봇은 1대의 스마트폰과만 연동됩니다. 다른 스마트폰에서 사용하려면 기존 연결을 먼저 언바인드해야 합니다.
+
+<img src="/YMO-support/images/g1_education/unbind1.png" width="700" height="auto">
+<img src="/YMO-support/images/g1_education/unbind2.png" width="700" height="auto">
+<img src="/YMO-support/images/g1_education/unbind3.png" width="700" height="auto">
 
 ## 기능 소개
 ### BenBen Dog
