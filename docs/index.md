@@ -14,10 +14,10 @@
 **📞응용지원팀: 02-6077-3606 / 02-6077-3607**  
 
 ---
-<span style="color: red; font-weight: bold;">Unitree 개발도구
+<span style="font-weight: bold;">Unitree 개발도구
 
-1. [Unitree Support site](https://support.unitree.com/main)  
-2. [Unitree GitHub](https://github.com/unitreerobotics)  
+1. 🔗[Unitree Support site](https://support.unitree.com/main)  
+2. 🔗[Unitree GitHub](https://github.com/unitreerobotics)  
     - unitree_sdk2: Python/C++ 기반의 저수준 모터 제어, 고수준 모션 제어, LiDAR point cloud data, 오디오 및 비디오 전송, SLAM 등의 인터페이스를 제공합니다. 
 ---
 
