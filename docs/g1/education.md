@@ -125,6 +125,15 @@
 
 ---
 
+### 언바인드 방법
+로봇은 1대의 스마트폰과만 연동됩니다. 다른 스마트폰에서 사용하려면 기존 연결을 먼저 언바인드해야 합니다.
+
+<img src="/YMO-support/images/g1_education/unbind1.png" width="700" height="auto">
+<img src="/YMO-support/images/g1_education/unbind2.png" width="700" height="auto">
+<img src="/YMO-support/images/g1_education/unbind3.png" width="700" height="auto">
+
+---
+
 ### 펌웨어 업데이트 방법
 1. 로봇 배터리를 충분히 충전해주세요.
 2. 앱에서 G1에 Wi-Fi 모드로 연결합니다.
