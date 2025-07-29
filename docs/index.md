@@ -11,17 +11,15 @@
 
 로봇 관련 문의사항이나 기술지원이 필요하시면 언제든지 연락주시기 바랍니다!  
 
-📞응용지원팀: 02-6077-3606 / 02-6077-3607  
+**📞응용지원팀: 02-6077-3606 / 02-6077-3607**  
 
 ---
-<span style="color: red; font-weight: bold;">Unitree 공식 사이트
+<span style="color: red; font-weight: bold;">Unitree 개발도구
 
 1. [Unitree Support site](https://support.unitree.com/main)  
 2. [Unitree GitHub](https://github.com/unitreerobotics)  
-    - unitree_sdk2: 저수준 모터 제어, 고수준 모션 제어, LiDAR point cloud data, 오디오 및 비디오 전송, SLAM 등의 인터페이스를 제공합니다 .
+    - unitree_sdk2: Python/C++ 기반의 저수준 모터 제어, 고수준 모션 제어, LiDAR point cloud data, 오디오 및 비디오 전송, SLAM 등의 인터페이스를 제공합니다. 
 ---
-
-**영인모빌리티 응용지원팀 드림**
 
 <h2 style="font-weight: 900;">🔥새로운 휴머노이드 R1 출시‼️</h2>
 

@@ -18,7 +18,11 @@ nav:
         - 개발: go2/Q&A/develop.md
   - G1:
       - 모델 소개: g1/model.md
+      - 납품 교육: g1/education.md 
+      - 개발 manual: g1/develop_manual.md
       - Q&A:
         - 하드웨어: g1/Q&A/hardware.md
+        - 앱: g1/Q&A/app.md
+        - 개발: g1/Q&A/develop.md
   - Z1:
       - 모델 소개: z1/model.md

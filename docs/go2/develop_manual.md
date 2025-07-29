@@ -1,8 +1,9 @@
 ### 개발환경
-Ubuntu 20.04 ROS2 Foxy 권장드립니다.
+1. 로봇 운영체제: Ubuntu 20.04 LTS
+2. ROS 버전: ROS2 Foxy
 
 ### IP
-Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP는 '192.168.123.18'입니다. 사용자는 메인보드에 접속할 수 없으며, 개발용 PC에만 접속 가능합니다.  
+Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP는 <span style="color: red">'192.168.123.18'</span> 입니다. 사용자는 메인보드에 접속할 수 없으며, 개발용 PC에만 접속 가능합니다.  
 
     - ID: unitree  
     - PW: 123
@@ -11,8 +12,15 @@ Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP�
 
 ![dock 인터페이스](/YMO-support/images/go2_electrical_interface.png)
 
-### 사용자 PC와 통신
-사용자 PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.
+### User PC와 통신
+User PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.
+
+### 디스플레이 화면 연결
+Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입하고, 디스플레이 화면 연결 케이블을 사용하여 디스플레이 화면을 연결합니다. 
+
+![Display 연결](/YMO-support/images/go2_display.png)
+
+---
 
 ### L1 라이다
 1. topic name: 'rt/utlidar/cloud'
@@ -51,8 +59,7 @@ Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP�
     - 문자열로 'ON / OFF' 내용 전송
 
 ### Navigation용 라이다
-1. LiDAR IP
-: '192.168.123.20'입니다.
+1. LiDAR IP: '192.168.123.20'
 
 2. 참고 자료
     - [Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions)
