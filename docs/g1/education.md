@@ -2,6 +2,7 @@
 ✅[G1 앱 다운로드/Tutorial 영상/매뉴얼 링크](https://www.unitree.com/app/g1)
 
 ## <h2 style="font-weight: 900;">조종기</h2>
+
 ### 조종기 기능
 
 ### [ON] 눕혀둔 로봇 일으키는 방법
@@ -99,4 +100,8 @@
     2. 빠른 속도: R2+윗방향
 2. 기본 걸음걸이로 돌아가기: R1+X (약 5초간 길게 누릅니다.)
 
-## 앱
+## <h2 style="font-weight: 900;">앱 기능</h2>
+
+### Tutorial 영상 보기 
+1. “Guide-Tutorial Video” 메뉴로 들어갑니다.
+2. 기초 조작법과 기능을 영상으로 확인할 수 있습니다.
