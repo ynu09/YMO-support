@@ -3,7 +3,7 @@
 2. ROS 버전: ROS2 Foxy
 3. 개발도구 및 SDK → 🔗[Unitree Robotics · GitHub](https://github.com/unitreerobotics)  
 
-    : Unitree G1은 Support site 및 Python/C++ 기반의 SDK를 제공합니다.  
+    : Unitree G1은 Support site 및 <span style="color: red;">Python/C++</span> 기반의 SDK를 제공합니다.  
 
 4. 시뮬레이션 환경 (로봇 없이 소프트웨어 개발 및 테스트할 수 있는 환경) → 🔗[GitHub - unitreerobotics/unitree_ros](https://github.com/unitreerobotics/unitree_ros/tree/master/robots/g1_description)
 
@@ -11,7 +11,7 @@
 
 5. 강화학습 시뮬레이터 → 🔗[GitHub - unitreerobotics/unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym)
 
-    : 강화학습(Reinforcement Learning, RL) 기반 AI 학습을 지원하는 공식 시뮬레이션 환경을 제공합니다. unitree_rl_gym에서는 Isaac Gym, MuJoCo 시뮬레이터를 이용해 G1의 모션 제어를 위한 RL 학습 환경을 구축할 수 있습니다. 기본 학습 프로세스는 "Train → Play → Sim2Sim/Sim2Real"로 구성되며, 시뮬레이터 내 학습 후 실제 로봇에 배포 가능합니다.
+    : 강화학습(Reinforcement Learning, RL) 기반 AI 학습을 지원하는 공식 시뮬레이션 환경을 제공합니다. 'unitree_rl_gym'에서는 Isaac Gym, MuJoCo 시뮬레이터를 이용해 G1의 모션 제어를 위한 RL 학습 환경을 구축할 수 있습니다. 기본 학습 프로세스는 <span style="color: red;">"Train → Play → Sim2Sim/Sim2Real"</span>로 구성되며, 시뮬레이터 내 학습 후 실제 로봇에 배포 가능합니다.
 
 ---
 
@@ -35,11 +35,11 @@
 ---
 
 ### 센서 및 인지
-1. 카메라, 그리퍼, LiDAR, IMU, 촉감센서 등 다양한 센서 데이터 처리 능력
+1. 카메라, LiDAR, IMU, 촉감센서 등 다양한 센서 데이터 처리 능력
     
     : G1은 외부 센서 장착을 위한 인터페이스가 마련되어 있어, 사용자가 직접 데이터를 수집하고 처리할 수 있습니다.
     
-2. 주변 환경의 3D 지도 생성(Mapping)
+2. 주변 환경 Mapping
     
     : 헤드 위치에 Livox Mid-360 LiDAR가 장착되어 있으나, 이를 활용한 3D 매핑 기능은 **직접 개발**하여 구현해야 합니다.
     

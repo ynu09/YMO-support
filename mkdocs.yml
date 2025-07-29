@@ -24,5 +24,8 @@ nav:
         - 하드웨어: g1/Q&A/hardware.md
         - 앱: g1/Q&A/app.md
         - 개발: g1/Q&A/develop.md
+  - Inspire:
+      - DFX: inspire/dfx.md
+      - DFTP: inspire/dftp.md
   - Z1:
       - 모델 소개: z1/model.md
