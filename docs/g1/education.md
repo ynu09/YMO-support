@@ -1,7 +1,7 @@
 # G1 조종기/앱 사용법
 ✅[G1 앱 다운로드/Tutorial 영상/매뉴얼 링크](https://www.unitree.com/app/g1)
 
-<h2 style="font-weight: 900;">조종기</h2>
+## <h2 style="font-weight: 900;">조종기</h2>
 ### 조종기 기능
 
 ### [ON] 눕혀둔 로봇 일으키는 방법
@@ -67,3 +67,36 @@
 ---
 
 ### 로봇 모션
+- 동일한 버튼을 다시 누르면, 원래 자세(차렷)로 돌아갑니다.
+1. Wave Hand: SELECT + Y
+    
+    : 손 흔들기
+    
+2. Handshake: SELECT + A
+    
+    : 악수하기
+    
+3. Turn Around and Wave Hand: SELECT + X
+    
+    : 뒤돌아서 손 흔들기
+
+---
+
+### [Regular Mode] 로봇 속도 조절
+1. Low Speed Mode: L2 더블클릭
+    
+    : 속도 느리게 변경
+    
+2. High Speed Mode: L1 더블클릭
+    
+    : 속도 빠르게 변경
+
+---
+
+### [Running Mode] 사람처럼 자연스럽게 걷는 모드
+1. 사람처럼 걷기 시작하기: R2+A (약 5초간 길게 누릅니다.) 
+    1. 느린 속도: R2+아랫방향
+    2. 빠른 속도: R2+윗방향
+2. 기본 걸음걸이로 돌아가기: R1+X (약 5초간 길게 누릅니다.)
+
+## 앱
