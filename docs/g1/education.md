@@ -48,7 +48,7 @@
 4. Damping Mode: L2+B (약 5초간 길게 누릅니다.) → <span style="color: blue;">LED가 노란색으로 바뀝니다!</span>  
 
     <img src="/YMO-support/images/g1_education/yellow_led.png" width="500" height="auto">
-    
+
 5. 거치대 줄 위로 더 올리기  
 6. 로봇 전원 OFF (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)  
 
@@ -80,22 +80,21 @@
 ---
 
 ### 로봇 모션
-- 동일한 버튼을 다시 누르면, 원래 자세(차렷)로 돌아갑니다.
-1. Wave Hand: SELECT + Y
-    
-    : 손 흔들기
-    
-2. Handshake: SELECT + A
-    
-    : 악수하기
-    
-3. Turn Around and Wave Hand: SELECT + X
-    
-    : 뒤돌아서 손 흔들기
+<img src="/YMO-support/images/g1_education/motion.png" width="470" height="auto">
+
+- 동일한 버튼을 다시 누르면, 원래 자세(차렷)로 돌아갑니다.  
+
+<ol>
+  <li>Wave Hand: SELECT + Y<br> : 손 흔들기</li>
+  <li>Handshake: SELECT + A<br> : 악수하기</li>
+  <li>Turn Around and Wave Hand: SELECT + X<br> : 뒤돌아서 손 흔들기</li>
+</ol>
 
 ---
 
 ### [Regular Mode] 로봇 속도 조절
+<img src="/YMO-support/images/g1_education/speed.png" width="470" height="auto">
+
 1. Low Speed Mode: L2 더블클릭
     
     : 속도 느리게 변경
@@ -113,10 +112,16 @@
 2. 기본 걸음걸이로 돌아가기: R1+X (약 5초간 길게 누릅니다.)
 
 ## <h2 style="font-weight: 900;">2️⃣앱 기능</h2>
+<img src="/YMO-support/images/g1_education/app.jpg" width="800" height="auto">
 
 ### Tutorial 영상 보기 
 1. “Guide-Tutorial Video” 메뉴로 들어갑니다.
+
+    <img src="/YMO-support/images/g1_education/tutorial1.jpg" width="700" height="auto">
+
 2. 기초 조작법과 기능을 영상으로 확인할 수 있습니다.
+
+    <img src="/YMO-support/images/g1_education/tutorial2.jpg" width="700" height="auto">
 
 ---
 
@@ -127,6 +132,8 @@
     - 방법 1: “Go!” 버튼을 누르면, “New Firmware”라는 메시지와 함께 업데이트 팝업이 나타납니다.
     - 방법 2: “Device-Update” 설정으로 들어가 업데이트를 진행할 수 있습니다.
 
+        <img src="/YMO-support/images/g1_education/firmware.png" width="700" height="auto">
+
 ---
 
 ### 카메라/모션/조종
@@ -135,6 +142,9 @@
     🚨**주의!** <span style="color: red;">1-Dof-Waist 모드 상태여야 합니다.</span>
     
     - 모션 종류: Handshake, High Five, Hug, High Wave, Clap, Face Wave, Left Kiss, Arm heart, Right Heart, Hands Up, X-Ray, Right Hand Up, Reject
+
+    <img src="/YMO-support/images/g1_education/camera.jpg" width="700" height="auto">
+    
 2. 왼쪽 조종키: 앞/뒤/좌/우 이동
 3. 오른쪽 조종키: 방향 전환
 4. 카메라/영상 버튼 클릭 시 사진 촬영 가능합니다.
