@@ -10,7 +10,7 @@ Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP�
 
 ### Electrical interface
 
-![dock 인터페이스](/YMO-support/images/go2_electrical_interface.png)
+![dock 인터페이스](/YMO-support/images/go2_develop/go2_electrical_interface.png)
 
 ### User PC와 통신
 User PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.
@@ -18,7 +18,7 @@ User PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 �
 ### 디스플레이 화면 연결
 Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입하고, 디스플레이 화면 연결 케이블을 사용하여 디스플레이 화면을 연결합니다. 
 
-![Display 연결](/YMO-support/images/go2_display.png)
+![Display 연결](/YMO-support/images/go2_develop/go2_display.png)
 
 ---
 
@@ -51,7 +51,7 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     - 왼쪽 하단의 'Add'를 클릭하고 'By topic'을 선택한 후 해당 point cloud 토픽인 '/utlidar/cloud_deskewed'를 선택합니다. 
     - [Decay Time]을 1초 이상으로 설정하여 특정 시간동안 데이터를 저장할 수 있습니다. 
     
-    ![RVIZ2 이미지](/YMO-support/images/go2_rviz2.png)
+    ![RVIZ2 이미지](/YMO-support/images/go2_develop/go2_rviz2.png)
 
 5. L1 LiDAR 끄는 방법  
 : L1 LiDAR는 기본적으로 로봇 전원을 켜면 자동으로 시작되도록 설정되어 있습니다. LiDAR를 끄고 싶은 경우(회전 중지), 제어 명령을 publish하여 중지할 수 있습니다. 

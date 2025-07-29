@@ -1,9 +1,18 @@
-# G1 조종기/앱 사용법
-✅[G1 앱 다운로드/Tutorial 영상/매뉴얼 링크](https://www.unitree.com/app/g1)
+# G1 조종기/앱 사용법  
+✅[G1 앱 다운로드/Tutorial 영상/매뉴얼 링크](https://www.unitree.com/app/g1)  
 
-## <h2 style="font-weight: 900;">조종기</h2>
+- iOS
+
+    <img src="/YMO-support/images/g1_education/ios.png" width="500" height="auto">
+
+- Android
+
+    <img src="/YMO-support/images/g1_education/android.png" width="500" height="auto">
+
+## <h2 style="font-weight: 900;">1️⃣조종기</h2>
 
 ### 조종기 기능
+![controller 이미지](/YMO-support/images/g1_education/controller_img.png)
 
 ### [ON] 눕혀둔 로봇 일으키는 방법
 1. 로봇 전원 ON (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)
@@ -37,6 +46,9 @@
 2. 어깨 양쪽에 락커 걸어주기  
 3. 로봇 발이 바닥에 닿은채로 거치대 줄 팽팽하게 되도록 당겨주기  
 4. Damping Mode: L2+B (약 5초간 길게 누릅니다.) → <span style="color: blue;">LED가 노란색으로 바뀝니다!</span>  
+
+    <img src="/YMO-support/images/g1_education/yellow_led.png" width="500" height="auto">
+    
 5. 거치대 줄 위로 더 올리기  
 6. 로봇 전원 OFF (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)  
 
@@ -100,8 +112,44 @@
     2. 빠른 속도: R2+윗방향
 2. 기본 걸음걸이로 돌아가기: R1+X (약 5초간 길게 누릅니다.)
 
-## <h2 style="font-weight: 900;">앱 기능</h2>
+## <h2 style="font-weight: 900;">2️⃣앱 기능</h2>
 
 ### Tutorial 영상 보기 
 1. “Guide-Tutorial Video” 메뉴로 들어갑니다.
 2. 기초 조작법과 기능을 영상으로 확인할 수 있습니다.
+
+---
+
+### 펌웨어 업데이트 방법
+1. 로봇 배터리를 충분히 충전해주세요.
+2. 앱에서 G1에 Wi-Fi 모드로 연결합니다.
+3. 아래 두 가지 방법 중 선택
+    - 방법 1: “Go!” 버튼을 누르면, “New Firmware”라는 메시지와 함께 업데이트 팝업이 나타납니다.
+    - 방법 2: “Device-Update” 설정으로 들어가 업데이트를 진행할 수 있습니다.
+
+---
+
+### 카메라/모션/조종
+1. “Go!” 버튼을 누르면 G1의 카메라 화면 확인 및 추가된 모션들을 실행하실 수 있습니다.
+    
+    🚨**주의!** <span style="color: red;">1-Dof-Waist 모드 상태여야 합니다.</span>
+    
+    - 모션 종류: Handshake, High Five, Hug, High Wave, Clap, Face Wave, Left Kiss, Arm heart, Right Heart, Hands Up, X-Ray, Right Hand Up, Reject
+2. 왼쪽 조종키: 앞/뒤/좌/우 이동
+3. 오른쪽 조종키: 방향 전환
+4. 카메라/영상 버튼 클릭 시 사진 촬영 가능합니다.
+
+---
+
+### 음성인식
+1. “Function-BenBen”으로 들어갑니다.
+2. GPT처럼 로봇과 대화할 수 있으며, 간단 명령이 가능합니다.
+    
+    🚨**주의!** <span style="color: red;">영어, 중국어만 지원합니다.</span>  
+    ex) 명령 예시: “Move forward one step”
+
+---
+
+### Calibration 방법
+1. “Device-Data-Robot”으로 들어갑니다.
+2. 로봇의 걸음이 이상하거나 모터가 오작동할 경우, 앱 안내에 따라 Calibration을 진행합니다.

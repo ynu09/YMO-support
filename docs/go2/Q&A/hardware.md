@@ -46,7 +46,7 @@
 
 13. 페이로드 추가 장착이 가능한가요?  
 : 추가 장착 시에는 도킹 스테이션 레일 규격에 맞게 제작이 필요합니다.
-    ![Rail 사이즈](/YMO-support/images/rail_size.png)
+    ![Rail 사이즈](/YMO-support/images/go2_hardware/rail_size.png)
 
 14. 기계팔을 직접 제작해 연동할 수 있나요? 설계도면 제공 시 제작도 가능한가요?  
 : 직접 제작 시 전력 호환성 검토 및 코드를 별도로 작성하셔야 합니다.
