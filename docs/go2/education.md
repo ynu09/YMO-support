@@ -67,8 +67,23 @@
 
 ---
 
+### 블록코딩
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_10_en.mp4" type="video/mp4">
+</video>
+
+---
+
 ### Mapping & Navigation
 기본 장착된 L1 LiDAR로 간단하게 매핑 및 내비게이션이 가능합니다. 주변환경을 스캔한 후, 사용자가 지정한 위치대로 정해진 시간동안 계속 반복합니다. 
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_15_en.mp4" type="video/mp4">
+</video>
+
+---
+
+### Calibration 
+로봇의 걸음이 이상하거나 모터가 오작동할 경우, 앱 안내에 따라 Calibration을 진행합니다.
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_4_en.mp4" type="video/mp4">
 </video>
