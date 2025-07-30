@@ -16,5 +16,11 @@
     - RR: rear right
 
 ### G1
+1. 모형손 - Inspire손 교체
+2. 인터페이스 보드 교체
+    - 포트 고장
+3. 파워보드 고장  
+
+    ⚠️ <span style="color: red; font-weight: bold;">주의!</span> 케이블은 전원을 끈 상태에서만 연결해 주세요. 전원이 켜진 상태에서 연결 시, 파워보드가 손상될 수 있습니다.
 
 ### Inspire Hand
