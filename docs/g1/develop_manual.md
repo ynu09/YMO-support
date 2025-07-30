@@ -15,6 +15,14 @@
 
 ---
 
+### IP
+G1의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP는 <span style="color: red">'192.168.123.164'</span> 입니다. 사용자는 메인보드에 접속할 수 없으며, 개발용 PC에만 접속 가능합니다.  
+
+    - ID: unitree  
+    - PW: 123
+
+---
+
 ### 인공지능
 1. Natural Language Process(NLP) 처리 기능
     
