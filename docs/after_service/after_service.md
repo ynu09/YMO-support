@@ -3,21 +3,38 @@
 
 ### Go2
 1. L1 라이다 고장
-    - Case1: point cloud data가 아예 들어오지 않는 경우
+    - Case1: Point cloud 데이터가 전혀 수신되지 않음
         ![lidar error](/YMO-support/images/after_service/lidar.png)
-    - Case2
+    - Case2: 로봇 전방에 장애물이 없음에도 불구하고 장애물이 있다고 오인식하는 현상
+        ![lidar error2](/YMO-support/images/after_service/lidar2.jpg)
 2. 다리 모터선 단선
-3. Motor 고장
-    : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.
-    - Body
-    - Thigh
-    - Shank
+    : 특정 다리의 모터 전선이 단선되어 정상적인 동작이 불가능한 상태
+3. Motor 고장  
+
+    : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.  
+
+    ⚠️ <span style="color: blue;">몸통 전체 분해 작업이 필요합니다.</span>  
+    
+    - Body Motor  
+    - Thigh Motor  
+    - Shank Motor   
+
 4. 다리 고장
+    
     : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.
-    - FL: front left
-    - FR: front right
-    - RL: rear left
-    - RR: rear right
+    
+    ⚠️ <span style="color: blue;">모터 수리에 비해 비교적 간단합니다.</span>  
+    
+    - FL: front left - 앞 왼쪽
+    - FR: front right - 앞 오른쪽
+    - RL: rear left - 뒤 왼쪽
+    - RR: rear right - 뒤 오른쪽
+
+---
+
+### Go2-W
+1. 휠 바람 빠짐
+    : 바퀴에 바람이 빠져, 축이 틀어지고 제대로 회전하지 않는 현상
 
 ---
 
@@ -35,3 +52,4 @@
 
 1. 특정 액추에이터 작동 이상  
     : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.
+    - 주로 중지 액추에이터 고장이 발생합니다. 
