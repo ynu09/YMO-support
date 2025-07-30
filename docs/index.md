@@ -20,7 +20,8 @@
 
 1. 🔗[Unitree Support site](https://support.unitree.com/main)  
 2. 🔗[Unitree GitHub](https://github.com/unitreerobotics)  
-    - unitree_sdk2: Python/C++ 기반의 저수준 모터 제어, 고수준 모션 제어, LiDAR point cloud data, 오디오 및 비디오 전송, SLAM 등의 인터페이스를 제공합니다. 
+    - unitree_sdk2: C++ 기반의 저수준 모터 제어, 고수준 모션 제어, LiDAR point cloud data, 오디오 및 비디오 전송, SLAM 등의 인터페이스를 제공합니다. 
+    - unitree_sdk2_python: unitree_sdk2를 Python으로 제어할 수 있게 해주는 인터페이스입니다.
 ---
 
 <h2 style="font-weight: 900;">🔥새로운 휴머노이드 R1 출시‼️</h2>
