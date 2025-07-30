@@ -135,6 +135,7 @@
     <img src="/YMO-support/images/g1_education/tutorial2.jpg" width="700" height="auto">
 
 ---
+
 ### 앱-로봇 연결
 먼저 블루투스를 활성화하여, 주변에 있는 휴머노이드 모델을 인식합니다. 원하는 이름을 설정해주시면 됩니다. 접속하는 방법은 두 가지가 있습니다.  
 
@@ -146,6 +147,8 @@
 <video width="700" controls>
 <source src="https://www.unitree.com/images/4272b99b2fe34a2aa8ff5fcdbb20c550.mp4" type="video/mp4">
 </video>
+
+---
 
 ### 언바인드 방법
 로봇은 1대의 스마트폰과만 연동됩니다. 다른 스마트폰에서 사용하려면 기존 연결을 먼저 언바인드해야 합니다.
@@ -190,7 +193,7 @@
 2. GPT처럼 로봇과 대화할 수 있으며, 간단 명령이 가능합니다.
     
     🚨**주의!** <span style="color: red;">영어, 중국어만 지원합니다.</span>  
-    ex) 명령 예시: “Move forward one step”
+    ex) 명령 예시: "Take one step forward"
 
     <img src="/YMO-support/images/g1_education/benben2.jpg" width="700" height="auto">
 

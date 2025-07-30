@@ -9,9 +9,8 @@ nav:
   - 홈: index.md
   - Go2:
       - 모델 소개: go2/model.md
-      - 조종기 가이드: go2/controller.md
+      - 납품 교육 - 조종기/앱: go2/education.md 
       - 개발 가이드: go2/develop_manual.md
-      - App 가이드: go2/app_manual.md
       - Q&A:
         - 하드웨어: go2/Q&A/hardware.md
         - 앱: go2/Q&A/app.md
