@@ -9,3 +9,8 @@
 | G1 Ultimate B | Edu Smart + Multi touch array sensor | 개발용 | 촉감센서O, 3지손 |    
 | G1 Ultimate C | Edu Plus + Inspire Robot Hand DFX | 개발용 | 촉감센서X, 5지손 |     
 | <span style="color: red; font-weight: bold;">[추천‼️]</span> G1 Ultimate D | Edu Plus + Inspire Robot Hand DFTP | 개발용 | 촉감센서O, 5지손 |
+
+### Packing 방법
+<video width="560" controls>
+<source src="https://www.unitree.com/images/a9dde6f864ae40c0a4ed733478723fdb.mp4" type="video/mp4">
+</video>

@@ -23,6 +23,11 @@ G1의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP�
 
 ---
 
+### Debug Mode 
+<video width="600" controls>
+<source src="https://www.unitree.com/images/7b68b1aba2934266b2eebcd71ee720bb.mp4" type="video/mp4">
+</video>
+
 ### 인공지능
 1. Natural Language Process(NLP) 처리 기능
     
