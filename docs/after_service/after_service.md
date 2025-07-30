@@ -1,5 +1,15 @@
-# A/S 사례 목록
+# A/S 사례
 로봇 운영 중 발생한 문제에 대해 고객 지원을 통해 직접 해결한 사례들을 정리한 페이지입니다. 
+
+### Go1
+1. 다리 모터선 단선  
+
+    : 특정 다리의 모터 전선이 단선되어 정상적인 동작이 불가능한 상태
+
+    - 단선으로 인해 연결이 끊어진 부분의 모터에서 0도로 나타납니다.
+    ![cable 단선](/YMO-support/images/after_service/cable.jpg)
+
+---
 
 ### Go2
 1. L1 라이다 고장
@@ -7,9 +17,8 @@
         ![lidar error](/YMO-support/images/after_service/lidar.png)
     - Case2: 로봇 전방에 장애물이 없음에도 불구하고 장애물이 있다고 오인식하는 현상
         ![lidar error2](/YMO-support/images/after_service/lidar2.jpg)
-2. 다리 모터선 단선
-    : 특정 다리의 모터 전선이 단선되어 정상적인 동작이 불가능한 상태
-3. Motor 고장  
+
+2. Motor 고장  
 
     : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.  
 
@@ -19,7 +28,7 @@
     - Thigh Motor  
     - Shank Motor   
 
-4. 다리 고장
+3. 다리 고장
     
     : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.
     

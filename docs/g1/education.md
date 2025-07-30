@@ -196,6 +196,7 @@
     ex) 명령 예시: "Take one step forward"
 
     <img src="/YMO-support/images/g1_education/benben2.jpg" width="700" height="auto">
+    <img src="/YMO-support/images/g1_education/benben3.jpg" width="700" height="auto">
 
 ---
 
