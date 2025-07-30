@@ -13,3 +13,37 @@ CH340 driver 설치가 필요합니다.
     ![test2](/YMO-support/images/inspire/inspire_test2.png)
 
 3. 슬라이드 바로 드래그 하여 정상 작동하는지 확인합니다.
+
+---
+
+### SDK
+[Unitree support Guide: inspire_dfx](https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand)  
+
+1. ping 테스트  
+    ```
+    $ ping 192.168.123.164  
+    ```
+2. G1 접속  
+    ```
+    $ ssh -X unitree@192.168.123.164
+    ```
+3. Build  
+    ```
+    $ sudo apt install libboost-all-dev libspdlog-dev
+    ```  
+    ```
+    $ cd h1_inspire_service & mkdir build & cd build
+    ```  
+    ```
+    $ cmake .. -DCMAKE_BUILD_TYPE=Release
+    ```  
+    ```
+    $ make
+    ```
+4. 권한 부여, 예제 실행  
+    ``` 
+    $ sudo ./inspire_hand -s /dev/ttyUSB0
+    ```  
+    ```
+    $ ./h1_hand_example
+    ```

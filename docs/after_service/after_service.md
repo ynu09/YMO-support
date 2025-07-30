@@ -60,5 +60,13 @@
 ### Inspire Hand
 
 1. 특정 액추에이터 작동 이상  
+
     : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.
+
     - 주로 중지 액추에이터 고장이 발생합니다. 
+
+---
+
+### 조종기
+
+![조종기 수리 범위](/YMO-support/images/after_service/controller.png)
