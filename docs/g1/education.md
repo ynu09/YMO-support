@@ -9,12 +9,23 @@
 
     <img src="/YMO-support/images/g1_education/android.png" width="500" height="auto">
 
-## <h2 style="font-weight: 900;">1️⃣조종기</h2>
+## <h2 style="font-weight: 900;">1️⃣로봇 부팅</h2>
+<video width="700" controls>
+<source src="https://www.unitree.com/images/9082483c275044a6bc92007b1361b8e5.mp4" type="video/mp4">
+</video>
+
+## <h2 style="font-weight: 900;">2️⃣조종기</h2>
 
 ### 조종기 기능
 ![controller 이미지](/YMO-support/images/g1_education/controller_img.png)
 
-### [ON] 눕혀둔 로봇 일으키는 방법
+### G1 조종기 바인딩  
+새로운 조종기로 교체하시는 경우, 로봇과 조종기 간 바인딩이 필요합니다. 
+<video width="700" controls>
+<source src="https://www.unitree.com/images/013139a173db47c19f000d61ab33ff19.mp4">
+</video>
+
+### **[ON]** 눕혀둔 로봇 일으키는 방법
 1. 로봇 전원 ON (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)
 2. Zero Moment Mode: L2+Y
 3. Damping Mode: L2+B
@@ -22,7 +33,7 @@
 
 ---
 
-### [ON] 거치대에 걸린 로봇 걷게 하는 방법
+### **[ON]** 거치대에 걸린 로봇 걷게 하는 방법
 1. 로봇 전원 ON
 2. Zero Moment Mode: L2+Y
 3. Damping Mode: L2+B
@@ -39,7 +50,7 @@
 
 ---
 
-### [OFF] 로봇 거치대에 거는 방법
+### **[OFF]** 로봇 거치대에 거는 방법
 🚨**주의!** <span style="color: red;">로봇이 켜진 상태에서 거치대 줄을 위로 올리지 마세요. 중심을 잡지 못해 바둥거립니다.</span>  
 
 1. 로봇을 거치대 앞으로 이동  
@@ -54,7 +65,7 @@
 
 ---
 
-### [OFF] 로봇 의자에 앉혀서 끄는 방법
+### **[OFF]** 로봇 의자에 앉혀서 끄는 방법
 1. Seated Mode: L2+왼쪽키
     
     🚨**주의!** <span style="color: red;">의자가 가볍거나 등받이가 없다면, 안전하게 로봇 등 윗부분 손잡이를 잡은채로 앉혀주세요.</span>
@@ -111,7 +122,7 @@
     2. 빠른 속도: R2+윗방향
 2. 기본 걸음걸이로 돌아가기: R1+X (약 5초간 길게 누릅니다.)
 
-## <h2 style="font-weight: 900;">2️⃣앱 기능</h2>
+## <h2 style="font-weight: 900;">3️⃣앱 기능</h2>
 <img src="/YMO-support/images/g1_education/app.jpg" width="800" height="auto">
 
 ### Tutorial 영상 보기 
@@ -124,6 +135,10 @@
     <img src="/YMO-support/images/g1_education/tutorial2.jpg" width="700" height="auto">
 
 ---
+### 로봇 연결 방법
+<video width="700" controls>
+<source src="https://www.unitree.com/images/4272b99b2fe34a2aa8ff5fcdbb20c550.mp4" type="video/mp4">
+</video>
 
 ### 언바인드 방법
 로봇은 1대의 스마트폰과만 연동됩니다. 다른 스마트폰에서 사용하려면 기존 연결을 먼저 언바인드해야 합니다.
@@ -183,3 +198,7 @@
 
 
 2. 로봇의 걸음이 이상하거나 모터가 오작동할 경우, 앱 안내에 따라 Calibration을 진행합니다.
+
+    <video width="600" controls>
+    <source src="https://www.unitree.com/images/0451dce775214af790ac8ab101f682bb.mp4" type="video/mp4">
+    </video>

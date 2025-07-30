@@ -78,5 +78,5 @@ G1의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP�
     : G1을 포함한 Unitree 로봇(Go2, B2, H1, G1)은 내부 통신에 **CycloneDDS 기반의 통신 메커니즘**을 사용하고 있으며, unitree_sdk2를 통해 쉽게 접근할 수 있습니다. 또한, ROS2도 동일하게 DDS를 기반으로 하고 있어, SDK 인터페이스를 거치지 않고도 ROS2의 내장된 메시지로 직접 통신 및 제어가 가능합니다.
     
 2. 외부 통신 방식
-    - 유선 통신: 네트워크 케이블 인터페이스가 제공되며, User PC와 연결하여 데이터 디버깅/실시간 제어가 가능합니다.
-    - 무선 통신: 🔗[宇树科技 文档中心](https://support.unitree.com/home/en/G1_developer/FAQ)
+    - 유선 통신: 이더넷 케이블 인터페이스가 제공되며, User PC와 연결하여 데이터 디버깅/실시간 제어가 가능합니다.
+    - Jetson Orin Nx WIFI 구성: 🔗[宇树科技 文档中心](https://support.unitree.com/home/en/G1_developer/FAQ)
