@@ -779,6 +779,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      SDK
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -950,6 +959,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      SDK
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -984,6 +1002,23 @@
 <li>
 <p>슬라이드 바로 드래그 하여 정상 작동하는지 확인합니다.</p>
 </li>
+</ol>
+<hr />
+<h3 id="sdk">SDK</h3>
+<p><a href="https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand">Unitree support Guide: inspire_dfx</a>  </p>
+<ol>
+<li>ping 테스트<br />
+<code>$ ping 192.168.123.164</code></li>
+<li>G1 접속<br />
+<code>$ ssh -X unitree@192.168.123.164</code></li>
+<li>Build<br />
+<code>$ sudo apt install libboost-all-dev libspdlog-dev</code><br />
+<code>$ cd h1_inspire_service &amp; mkdir build &amp; cd build</code><br />
+<code>$ cmake .. -DCMAKE_BUILD_TYPE=Release</code><br />
+<code>$ make</code></li>
+<li>권한 부여, 예제 실행<br />
+<code>$ sudo ./inspire_hand -s /dev/ttyUSB0</code><br />
+<code>$ ./h1_hand_example</code></li>
 </ol>
 
 

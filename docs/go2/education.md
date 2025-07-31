@@ -8,6 +8,9 @@
 
 ## <h2 style="font-weight: 900;">2️⃣조종기</h2>
 
+### 조종기 기능
+![controller 이미지](/YMO-support/images/go2_education/controller_img.png)
+
 ### Go2 조종기 바인딩  
 새로운 조종기로 교체하시는 경우, 로봇과 조종기 간 바인딩이 필요합니다. 
 <video width="700" controls>
@@ -17,7 +20,9 @@
 ---
 
 ### Accompanying 모드🐕
-<iframe width="800" height="450" src="https://www.youtube.com/embed/73C6nYc_mXM" frameborder="0" allowfullscreen></iframe>
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_6_en.mp4">
+</video>
 
 ---
 
