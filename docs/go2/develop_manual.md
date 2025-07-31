@@ -76,6 +76,12 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     ![network](https://doc-cdn.unitree.com/static/2023/9/6/0f51cb9b12f94f0cb75070d05118c00a_980x816.jpg)
 
 2. ping 테스트
+
+        # Docking PC
+        $ ping 192.168.123.18
+        # LiDAR
+        $ ping 192.168.123.20
+
 3. SDK 파일 설치
     
         $ cd /unitree/lib/unitree_slam
