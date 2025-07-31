@@ -77,10 +77,8 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
 
 2. ping 테스트
 
-        # Docking PC
-        $ ping 192.168.123.18
-        # LiDAR
-        $ ping 192.168.123.20
+        $ ping 192.168.123.18 # Docking PC
+        $ ping 192.168.123.20 # LiDAR
 
 3. SDK 파일 설치
     
