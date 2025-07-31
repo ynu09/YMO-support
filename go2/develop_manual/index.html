@@ -359,18 +359,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ip" class="md-nav__link">
+  <a href="#electrical-interface" class="md-nav__link">
     <span class="md-ellipsis">
-      IP
+      Electrical interface
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#electrical-interface" class="md-nav__link">
+  <a href="#ip" class="md-nav__link">
     <span class="md-ellipsis">
-      Electrical interface
+      IP
     </span>
   </a>
   
@@ -406,9 +406,42 @@
         <li class="md-nav__item">
   <a href="#navigation" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation용 라이다
+      Navigation용 외장형 라이다
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Navigation용 외장형 라이다">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unitree-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unitree SDK 사용 가이드
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mid-360" class="md-nav__link">
+    <span class="md-ellipsis">
+      MID-360
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xt-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      XT-16
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -987,18 +1020,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ip" class="md-nav__link">
+  <a href="#electrical-interface" class="md-nav__link">
     <span class="md-ellipsis">
-      IP
+      Electrical interface
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#electrical-interface" class="md-nav__link">
+  <a href="#ip" class="md-nav__link">
     <span class="md-ellipsis">
-      Electrical interface
+      IP
     </span>
   </a>
   
@@ -1034,9 +1067,42 @@
         <li class="md-nav__item">
   <a href="#navigation" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation용 라이다
+      Navigation용 외장형 라이다
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Navigation용 외장형 라이다">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unitree-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unitree SDK 사용 가이드
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mid-360" class="md-nav__link">
+    <span class="md-ellipsis">
+      MID-360
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xt-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      XT-16
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1058,25 +1124,27 @@
 
   <h1>개발 가이드</h1>
 
-<h3 id="_1">개발환경</h3>
+<h2 id="_1">개발환경</h2>
 <ol>
 <li>로봇 운영체제: Ubuntu 20.04 LTS</li>
 <li>ROS 버전: ROS2 Foxy</li>
 </ol>
-<h3 id="ip">IP</h3>
+<h2 id="electrical-interface">Electrical interface</h2>
+<p><img alt="dock 인터페이스" src="/YMO-support/images/go2_develop/go2_electrical_interface.png" /></p>
+<hr />
+<h2 id="ip">IP</h2>
 <p>Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP는 <span style="color: red">'192.168.123.18'</span> 입니다. 사용자는 메인보드에 접속할 수 없으며, 개발용 PC에만 접속 가능합니다.  </p>
 <pre><code>- ID: unitree  
 - PW: 123
 </code></pre>
-<h3 id="electrical-interface">Electrical interface</h3>
-<p><img alt="dock 인터페이스" src="/YMO-support/images/go2_develop/go2_electrical_interface.png" /></p>
-<h3 id="user-pc">User PC와 통신</h3>
+<h2 id="user-pc">User PC와 통신</h2>
 <p>User PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.</p>
-<h3 id="_2">디스플레이 화면 연결</h3>
+<h2 id="_2">디스플레이 화면 연결</h2>
 <p>Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입하고, 디스플레이 화면 연결 케이블을 사용하여 외부 디스플레이에 연결합니다. </p>
 <p><img alt="Display 연결" src="/YMO-support/images/go2_develop/go2_display.png" /></p>
 <hr />
-<h3 id="l1">L1 라이다</h3>
+<h2 id="l1">L1 라이다</h2>
+<p>: Go2 head에 기본적으로 탑재된 라이다 모델입니다.  </p>
 <ol>
 <li>topic name: 'rt/utlidar/cloud'</li>
 <li>coordinate sys: 'utlidar_lidar'</li>
@@ -1113,23 +1181,42 @@
 </ul>
 </li>
 </ol>
-<h3 id="navigation">Navigation용 라이다</h3>
+<hr />
+<h2 id="navigation">Navigation용 외장형 라이다</h2>
+<ul>
+<li>🔗<a href="https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service">Unitree SLAM/Navigation 인터페이스 설명</a></li>
+<li>
+<p>🔗<a href="https://www.bilibili.com/video/BV1kyymYWENd/?buvid=XUE9766E8663F0CF09546CE5B13781F280523">Unitree - SLAM 설명영상</a></p>
+<p><iframe src="//player.bilibili.com/player.html?bvid=BV1kyymYWENd&page=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true" 
+        width="700" 
+        height="450"> 
+</iframe></p>
+</li>
+</ul>
+<h3 id="unitree-sdk">Unitree SDK 사용 가이드</h3>
+<h3 id="mid-360">MID-360</h3>
 <ol>
 <li>
-<p>LiDAR IP: '192.168.123.20'</p>
+<p>IP: '192.168.123.20'</p>
 </li>
 <li>
-<p>참고 자료</p>
+<p>Viewer: 🔗<a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> </p>
+</li>
+<li>
+<p>Livox 공식 SDK</p>
 <ul>
-<li><a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a></li>
-<li><a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> </li>
-<li><a href="https://github.com/Livox-SDK/Livox-SDK2">Livox-SDK2</a></li>
-<li><a href="https://github.com/Livox-SDK/livox_ros_driver2">livox_ros_driver2</a></li>
-<li><a href="https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service">Unitree SLAM/Navigation 인터페이스</a></li>
-<li><a href="https://www.bilibili.com/video/BV1kyymYWENd/?buvid=XUE9766E8663F0CF09546CE5B13781F280523">Unitree - SLAM 설명영상</a></li>
+<li>🔗<a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a></li>
+<li>🔗<a href="https://github.com/Livox-SDK/Livox-SDK2">Livox-SDK2</a></li>
+<li>🔗<a href="https://github.com/Livox-SDK/livox_ros_driver2">livox_ros_driver2</a></li>
 </ul>
 </li>
 </ol>
+<h3 id="xt-16">XT-16</h3>
 
 
 
