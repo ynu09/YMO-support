@@ -19,6 +19,31 @@
 
 ---
 
+### **[ON]** 로봇 일으키는 방법
+1. 로봇의 네 다리와 몸통이 바닥에 모두 닿도록 눕혀주세요. 
+2. 배터리를 ⚡ 표시가 위로 향하도록 넣습니다.
+    
+    ⚠️ <span style="color: red;">약간의 힘을 주고 밀어 넣어주세요!</span>
+
+3. 로봇 전원 ON (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)
+4. 부팅이 완료되면 로봇이 자동으로 일어납니다. 
+
+---
+
+### **[OFF]** 로봇 끄는 방법
+1. Stand Lock: L2+A 
+
+    : 로봇의 다리 관절이 고정됩니다.
+
+2. Low Down: L2+A 
+
+    : 로봇이 바닥에 엎드리는 자세로 눕습니다. 
+
+3. 로봇 전원 OFF (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)
+4. 배터리를 꺼냅니다. 
+
+---
+
 ### Accompanying 모드🐕
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_6_en.mp4">
