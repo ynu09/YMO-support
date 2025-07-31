@@ -416,7 +416,16 @@
           <li class="md-nav__item">
   <a href="#unitree-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      Unitree SDK 사용 가이드
+      Unitree SDK 가이드
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unitree-sdk_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unitree SDK 실행 방법
     </span>
   </a>
   
@@ -1077,7 +1086,16 @@
           <li class="md-nav__item">
   <a href="#unitree-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      Unitree SDK 사용 가이드
+      Unitree SDK 가이드
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unitree-sdk_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unitree SDK 실행 방법
     </span>
   </a>
   
@@ -1152,13 +1170,12 @@
 <p>DDS를 사용하여 point cloud 데이터 얻기</p>
 <ul>
 <li>unitree_sdk2를 설치합니다.</li>
-<li>
-<p>'rt/utlidar/cloud' 토픽 subscribe하면 관련 정보를 출력하실 수 있습니다. </p>
-<p><code>$ ./subscribe_pointcloud</code><br />
-<code>Received a raw cloud here!</code><br />
-<code>stamp = 1683713030.572689533</code><br />
-<code>frame = utlidar_lidar</code><br />
-<code>points number = 1402</code>  </p>
+<li>'rt/utlidar/cloud' 토픽 subscribe하면 관련 정보를 출력하실 수 있습니다. <pre><code>$ ./subscribe_pointcloud 
+Received a raw cloud here!
+    stamp = 1683713030.572689533  
+    frame = utlidar_lidar  
+    points number = 1402
+</code></pre>
 </li>
 </ul>
 </li>
@@ -1198,22 +1215,36 @@
 </iframe></p>
 </li>
 </ul>
-<h3 id="unitree-sdk"><span style="color: blue;">Unitree SDK 사용 가이드</span></h3>
+<h3 id="unitree-sdk"><span style="color: blue;">Unitree SDK 가이드</span></h3>
+<h3 id="unitree-sdk_1"><span style="color: blue;">Unitree SDK 실행 방법</span></h3>
 <h3 id="mid-360">MID-360</h3>
 <ol>
 <li>
-<p>IP: '192.168.123.20'</p>
+<p>IP: 192.168.123.20</p>
 </li>
 <li>
 <p>Viewer: 🔗<a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> </p>
 </li>
 <li>
-<p><strong>Livox 공식 SDK</strong></p>
+<p><strong>Livox 공식 SDK 가이드</strong></p>
 <p>: 🔗<a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a> - support 사이트 참고하여 config.json 수정  </p>
 <p>⚠️ <span style="color: red;">G1 목차에 있지만, LiDAR ip 제외 내용 동일합니다.</span></p>
 <ul>
 <li>🔗<a href="https://github.com/Livox-SDK/Livox-SDK2">Livox-SDK2</a></li>
 <li>🔗<a href="https://github.com/Livox-SDK/livox_ros_driver2">livox_ros_driver2</a></li>
+</ul>
+</li>
+<li>
+<p>Livox 공식 SDK 실행 방법  </p>
+<pre><code>$ cd ~/livox_ws/
+    # cd ~/[work_space_name]/
+$ source install/setup.bash
+$ ros2 launch livox_ros_driver2 [launch file]
+    # ros2 launch livox_ros_driver2 rviz_MID360_launch.py
+</code></pre>
+<ul>
+<li>Fixed Frame: livox_frame</li>
+<li>Topic: /livox/lidar</li>
 </ul>
 </li>
 </ol>
