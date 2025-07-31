@@ -35,4 +35,4 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
 
-⏱️ **마지막 업데이트: 2025-07-30**
+⏱️ **마지막 업데이트: 2025-07-31**

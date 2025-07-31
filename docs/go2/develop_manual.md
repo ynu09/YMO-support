@@ -1,28 +1,32 @@
-### 개발환경
+## 개발환경
 1. 로봇 운영체제: Ubuntu 20.04 LTS
 2. ROS 버전: ROS2 Foxy
 
-### IP
+## Electrical interface
+
+![dock 인터페이스](/YMO-support/images/go2_develop/go2_electrical_interface.png)
+
+---
+
+## IP
 Go2의 메인보드 IP는 '192.168.123.161'이며, Jetson PC(Expansion Dock) IP는 <span style="color: red">'192.168.123.18'</span> 입니다. 사용자는 메인보드에 접속할 수 없으며, 개발용 PC에만 접속 가능합니다.  
 
     - ID: unitree  
     - PW: 123
 
-### Electrical interface
-
-![dock 인터페이스](/YMO-support/images/go2_develop/go2_electrical_interface.png)
-
-### User PC와 통신
+## User PC와 통신
 User PC(Ubuntu Sys)의 이더넷 포트를 사용하여 Go2 Expansion Dock의 이더넷 포트에 연결하면 사용자 PC와 Go2 사이의 통신을 구축할 수 있습니다.
 
-### 디스플레이 화면 연결
+## 디스플레이 화면 연결
 Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입하고, 디스플레이 화면 연결 케이블을 사용하여 외부 디스플레이에 연결합니다. 
 
 ![Display 연결](/YMO-support/images/go2_develop/go2_display.png)
 
 ---
 
-### L1 라이다
+## L1 라이다
+: Go2 head에 기본적으로 탑재된 라이다 모델입니다.  
+
 1. topic name: 'rt/utlidar/cloud'
 2. coordinate sys: 'utlidar_lidar'
 3. DDS를 사용하여 point cloud 데이터 얻기
@@ -58,13 +62,33 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     - DDS topic: 'rt/utlidar/switch'
     - 문자열로 'ON / OFF' 내용 전송
 
-### Navigation용 라이다
-1. LiDAR IP: '192.168.123.20'
+---
 
-2. 참고 자료
-    - [Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions)
-    - [Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
-    - [Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2)
-    - [livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2)
-    - [Unitree SLAM/Navigation 인터페이스](https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service)
-    - [Unitree - SLAM 설명영상](https://www.bilibili.com/video/BV1kyymYWENd/?buvid=XUE9766E8663F0CF09546CE5B13781F280523)
+## Navigation용 외장형 라이다
+- 🔗[Unitree SLAM/Navigation 인터페이스 설명](https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service)
+- 🔗[Unitree - SLAM 설명영상](https://www.bilibili.com/video/BV1kyymYWENd/?buvid=XUE9766E8663F0CF09546CE5B13781F280523)
+
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1kyymYWENd&page=1" 
+            scrolling="no" 
+            border="0" 
+            frameborder="no" 
+            framespacing="0" 
+            allowfullscreen="true" 
+            width="700" 
+            height="450"> 
+    </iframe>
+
+### Unitree SDK 사용 가이드  
+
+### MID-360
+1. IP: '192.168.123.20'
+
+2. Viewer: 🔗[Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
+
+3. Livox 공식 SDK
+    - 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions)
+    - 🔗[Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2)
+    - 🔗[livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2)
+    
+
+### XT-16
