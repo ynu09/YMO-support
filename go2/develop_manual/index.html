@@ -414,18 +414,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#unitree-sdk" class="md-nav__link">
+  <a href="#unitree_slam-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      Unitree SDK 가이드
+      unitree_slam SDK 가이드
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#unitree-sdk_1" class="md-nav__link">
+  <a href="#unitree_slam-sdk_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Unitree SDK 실행 방법
+      unitree_slam SDK 실행 방법
     </span>
   </a>
   
@@ -1084,18 +1084,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#unitree-sdk" class="md-nav__link">
+  <a href="#unitree_slam-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      Unitree SDK 가이드
+      unitree_slam SDK 가이드
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#unitree-sdk_1" class="md-nav__link">
+  <a href="#unitree_slam-sdk_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Unitree SDK 실행 방법
+      unitree_slam SDK 실행 방법
     </span>
   </a>
   
@@ -1215,8 +1215,16 @@ Received a raw cloud here!
 </iframe></p>
 </li>
 </ul>
-<h3 id="unitree-sdk"><span style="color: blue;">Unitree SDK 가이드</span></h3>
-<h3 id="unitree-sdk_1"><span style="color: blue;">Unitree SDK 실행 방법</span></h3>
+<hr />
+<h3 id="unitree_slam-sdk">unitree_slam SDK 가이드</h3>
+<h3 id="unitree_slam-sdk_1">unitree_slam SDK 실행 방법</h3>
+<ol>
+<li>터미널1: 먼저, <code>$ rviz2</code>를 실행하세요. 'File - open configuration'에서 <code>/unitree/lib/unitree_slam/rviz2/</code> 경로에 있는 <code>build_map.rviz</code>를 엽니다.</li>
+<li>터미널2: <code>/unitree/module/graph_pid_ws</code> 경로에서 <code>./0_unitree_slam.sh</code> 파일을 실행합니다.</li>
+<li>터미널3: <code>/unitree/lib/unitree_slam/build</code> 경로에서 <code>./demo_mid360 eth0</code>를 실행한 후, w key를 눌러 시작합니다.</li>
+</ol>
+<p><img alt="slam terminal" src="/YMO-support/images/go2_develop/slam_terminal.png" /> </p>
+<hr />
 <h3 id="mid-360">MID-360</h3>
 <ol>
 <li>
@@ -1226,7 +1234,7 @@ Received a raw cloud here!
 <p>Viewer: 🔗<a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> </p>
 </li>
 <li>
-<p><strong>Livox 공식 SDK 가이드</strong></p>
+<p>Livox 공식 SDK 가이드</p>
 <p>: 🔗<a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a> - support 사이트 참고하여 config.json 수정  </p>
 <p>⚠️ <span style="color: red;">G1 목차에 있지만, LiDAR ip 제외 내용 동일합니다.</span></p>
 <ul>
@@ -1248,7 +1256,16 @@ $ ros2 launch livox_ros_driver2 [launch file]
 </ul>
 </li>
 </ol>
+<hr />
 <h3 id="xt-16">XT-16</h3>
+<ol>
+<li>
+<p>IP: 192.168.123.20</p>
+</li>
+<li>
+<p>Viewer: 🔗<a href="https://www.hesaitech.com/downloads/">Pandar View2_Window Version</a></p>
+</li>
+</ol>
 
 
 
