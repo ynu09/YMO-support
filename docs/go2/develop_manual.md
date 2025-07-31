@@ -78,15 +78,19 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
             height="450"> 
     </iframe>
 
-### Unitree SDK 사용 가이드  
+### <span style="color: blue;">Unitree SDK 사용 가이드</span>
 
 ### MID-360
 1. IP: '192.168.123.20'
 
 2. Viewer: 🔗[Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
 
-3. Livox 공식 SDK
-    - 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions)
+3. **Livox 공식 SDK**
+
+    : 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions) - support 사이트 참고하여 config.json 수정  
+    
+    ⚠️ <span style="color: red;">G1 목차에 있지만, LiDAR ip 제외 내용 동일합니다.</span>
+    
     - 🔗[Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2)
     - 🔗[livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2)
     
