@@ -69,16 +69,26 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
             height="450"> 
     </iframe>
 
-### <span style="color: blue;">Unitree SDK 가이드</span>
+---
 
-### <span style="color: blue;">Unitree SDK 실행 방법</span>
+### unitree_slam SDK 가이드
+
+
+### unitree_slam SDK 실행 방법
+1. 터미널1: 먼저, ```$ rviz2```를 실행하세요. 'File - open configuration'에서 ```/unitree/lib/unitree_slam/rviz2/``` 경로에 있는 ```build_map.rviz```를 엽니다.
+2. 터미널2: ```/unitree/module/graph_pid_ws``` 경로에서 ```./0_unitree_slam.sh``` 파일을 실행합니다.
+3. 터미널3: ```/unitree/lib/unitree_slam/build``` 경로에서 ```./demo_mid360 eth0 ```를 실행한 후, w key를 눌러 시작합니다.
+
+![slam terminal](/YMO-support/images/go2_develop/slam_terminal.png) 
+
+---
 
 ### MID-360
 1. IP: 192.168.123.20
 
 2. Viewer: 🔗[Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
 
-3. **Livox 공식 SDK 가이드**
+3. Livox 공식 SDK 가이드
 
     : 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions) - support 사이트 참고하여 config.json 수정  
     
@@ -98,4 +108,9 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     - Fixed Frame: livox_frame
     - Topic: /livox/lidar
 
+---
+
 ### XT-16
+1. IP: 192.168.123.20
+
+2. Viewer: 🔗[Pandar View2_Window Version](https://www.hesaitech.com/downloads/)
