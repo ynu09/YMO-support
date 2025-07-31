@@ -69,13 +69,14 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
             height="450"> 
     </iframe>
 
----
+### 1️⃣unitree_slam SDK 가이드
+1. 이더넷 케이블의 한쪽 끝을 Go2에 연결하고, 다른 쪽 끝을 User PC에 연결합니다.
+1. 사용자 PC 네트워크 구성을 다음과 같이 수정합니다. 수정 후에는 이더넷 연결을 재활성화 합니다.
 
-### unitree_slam SDK 가이드
-🔗[Manual - Unitree Support](https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service)
+    ![network](https://doc-cdn.unitree.com/static/2023/9/6/0f51cb9b12f94f0cb75070d05118c00a_980x816.jpg)
 
-1. 
-2. SDK 파일 설치
+2. ping 테스트
+3. SDK 파일 설치
     
         $ cd /unitree/lib/unitree_slam
         $ sudo ./install.sh
@@ -84,13 +85,16 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
 ### unitree_slam SDK 실행 방법
 1. 터미널1: 먼저, ```$ rviz2```를 실행하세요. 'File - open configuration'에서 ```/unitree/lib/unitree_slam/rviz2/``` 경로에 있는 ```build_map.rviz```를 엽니다.
 2. 터미널2: ```/unitree/module/graph_pid_ws``` 경로에서 ```./0_unitree_slam.sh``` 파일을 실행합니다.
+
+    ![터미널2](https://doc-cdn.unitree.com/static/2024/9/20/f5db161f799a4860ab1866b5d9ae57fe_1238x409.png)
+
 3. 터미널3: ```/unitree/lib/unitree_slam/build``` 경로에서 ```./demo_mid360 eth0 ``` 또는 ```./demo_xt16 eth0 ``` 를 실행한 후, w key를 눌러 시작합니다.
 
 ![slam terminal](/YMO-support/images/go2_develop/slam_terminal.png) 
 
 ---
 
-### MID-360
+### 2️⃣MID-360
 1. IP: 192.168.123.20
 
 2. Viewer: 🔗[Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
@@ -125,7 +129,7 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
 
 ---
 
-### XT-16
+### 3️⃣XT-16
 1. IP: 192.168.123.20
 
 2. Viewer: 🔗[Pandar View2_Window Version](https://www.hesaitech.com/downloads/)
