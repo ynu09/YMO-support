@@ -1217,11 +1217,19 @@ Received a raw cloud here!
 </ul>
 <hr />
 <h3 id="unitree_slam-sdk">unitree_slam SDK 가이드</h3>
+<ol>
+<li></li>
+<li>SDK 파일 설치<pre><code>$ cd /unitree/lib/unitree_slam
+$ sudo ./install.sh
+</code></pre>
+<p><img alt="설치 사진" src="https://doc-cdn.unitree.com/static/2024/9/20/b90f1ca4f7214f1c8c3c061abf0ff564_561x136.png" /></p>
+</li>
+</ol>
 <h3 id="unitree_slam-sdk_1">unitree_slam SDK 실행 방법</h3>
 <ol>
 <li>터미널1: 먼저, <code>$ rviz2</code>를 실행하세요. 'File - open configuration'에서 <code>/unitree/lib/unitree_slam/rviz2/</code> 경로에 있는 <code>build_map.rviz</code>를 엽니다.</li>
 <li>터미널2: <code>/unitree/module/graph_pid_ws</code> 경로에서 <code>./0_unitree_slam.sh</code> 파일을 실행합니다.</li>
-<li>터미널3: <code>/unitree/lib/unitree_slam/build</code> 경로에서 <code>./demo_mid360 eth0</code>를 실행한 후, w key를 눌러 시작합니다.</li>
+<li>터미널3: <code>/unitree/lib/unitree_slam/build</code> 경로에서 <code>./demo_mid360 eth0</code> 또는 <code>./demo_xt16 eth0</code> 를 실행한 후, w key를 눌러 시작합니다.</li>
 </ol>
 <p><img alt="slam terminal" src="/YMO-support/images/go2_develop/slam_terminal.png" /> </p>
 <hr />
@@ -1231,15 +1239,27 @@ Received a raw cloud here!
 <p>IP: 192.168.123.20</p>
 </li>
 <li>
-<p>Viewer: 🔗<a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> </p>
+<p>Viewer: 🔗<a href="https://www.livoxtech.com/mobile/downloads">Livox Viewer2_Window Version</a> 
+    <img alt="livox viewer" src="https://doc-cdn.unitree.com/static/2024/7/26/cf6820038cb44907898098d241354765_1843x1054.png" /></p>
 </li>
 <li>
 <p>Livox 공식 SDK 가이드</p>
-<p>: 🔗<a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a> - support 사이트 참고하여 config.json 수정  </p>
+<p>: 🔗<a href="https://support.unitree.com/home/en/G1_developer/lidar_Instructions">Manual - Unitree Support</a> - support 사이트 참고하여 MID360_config.json 수정  </p>
 <p>⚠️ <span style="color: red;">G1 목차에 있지만, LiDAR ip 제외 내용 동일합니다.</span></p>
 <ul>
-<li>🔗<a href="https://github.com/Livox-SDK/Livox-SDK2">Livox-SDK2</a></li>
-<li>🔗<a href="https://github.com/Livox-SDK/livox_ros_driver2">livox_ros_driver2</a></li>
+<li>
+<p>🔗<a href="https://github.com/Livox-SDK/Livox-SDK2">Livox-SDK2</a></p>
+<pre><code>$ git clone https://github.com/Livox-SDK/Livox-SDK2.git
+$ cd ./Livox-SDK2/
+$ mkdir build
+$ cd build
+$ cmake .. &amp;&amp; make -j
+$ sudo make install
+</code></pre>
+</li>
+<li>
+<p>🔗<a href="https://github.com/Livox-SDK/livox_ros_driver2">livox_ros_driver2</a></p>
+</li>
 </ul>
 </li>
 <li>

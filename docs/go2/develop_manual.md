@@ -72,6 +72,8 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
 ---
 
 ### unitree_slam SDK 가이드
+🔗[Manual - Unitree Support](https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service)
+
 1. 
 2. SDK 파일 설치
     
@@ -95,7 +97,7 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     ![livox viewer](https://doc-cdn.unitree.com/static/2024/7/26/cf6820038cb44907898098d241354765_1843x1054.png)
 3. Livox 공식 SDK 가이드
 
-    : 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions) - support 사이트 참고하여 MID360_config.json 수정  
+    : 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions) - 참고하여 MID360_config.json 수정  
     
     ⚠️ <span style="color: red;">G1 목차에 있지만, LiDAR ip 제외 내용 동일합니다.</span>
 
