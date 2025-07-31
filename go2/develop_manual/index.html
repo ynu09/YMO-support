@@ -414,16 +414,16 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#unitree_slam-sdk" class="md-nav__link">
+  <a href="#1unitree_slam-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      unitree_slam SDK 가이드
+      1️⃣unitree_slam SDK 가이드
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#unitree_slam-sdk_1" class="md-nav__link">
+  <a href="#unitree_slam-sdk" class="md-nav__link">
     <span class="md-ellipsis">
       unitree_slam SDK 실행 방법
     </span>
@@ -432,18 +432,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mid-360" class="md-nav__link">
+  <a href="#2mid-360" class="md-nav__link">
     <span class="md-ellipsis">
-      MID-360
+      2️⃣MID-360
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#xt-16" class="md-nav__link">
+  <a href="#3xt-16" class="md-nav__link">
     <span class="md-ellipsis">
-      XT-16
+      3️⃣XT-16
     </span>
   </a>
   
@@ -1084,16 +1084,16 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#unitree_slam-sdk" class="md-nav__link">
+  <a href="#1unitree_slam-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      unitree_slam SDK 가이드
+      1️⃣unitree_slam SDK 가이드
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#unitree_slam-sdk_1" class="md-nav__link">
+  <a href="#unitree_slam-sdk" class="md-nav__link">
     <span class="md-ellipsis">
       unitree_slam SDK 실행 방법
     </span>
@@ -1102,18 +1102,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mid-360" class="md-nav__link">
+  <a href="#2mid-360" class="md-nav__link">
     <span class="md-ellipsis">
-      MID-360
+      2️⃣MID-360
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#xt-16" class="md-nav__link">
+  <a href="#3xt-16" class="md-nav__link">
     <span class="md-ellipsis">
-      XT-16
+      3️⃣XT-16
     </span>
   </a>
   
@@ -1215,26 +1215,36 @@ Received a raw cloud here!
 </iframe></p>
 </li>
 </ul>
-<hr />
-<h3 id="unitree_slam-sdk">unitree_slam SDK 가이드</h3>
-<p>🔗<a href="https://support.unitree.com/home/en/developer/SLAM%20and%20Navigation_service">Manual - Unitree Support</a></p>
+<h3 id="1unitree_slam-sdk">1️⃣unitree_slam SDK 가이드</h3>
 <ol>
-<li></li>
+<li>이더넷 케이블의 한쪽 끝을 Go2에 연결하고, 다른 쪽 끝을 User PC에 연결합니다.</li>
+<li>
+<p>사용자 PC 네트워크 구성을 다음과 같이 수정합니다. 수정 후에는 이더넷 연결을 재활성화 합니다.</p>
+<p><img alt="network" src="https://doc-cdn.unitree.com/static/2023/9/6/0f51cb9b12f94f0cb75070d05118c00a_980x816.jpg" /></p>
+</li>
+<li>
+<p>ping 테스트</p>
+</li>
 <li>SDK 파일 설치<pre><code>$ cd /unitree/lib/unitree_slam
 $ sudo ./install.sh
 </code></pre>
 <p><img alt="설치 사진" src="https://doc-cdn.unitree.com/static/2024/9/20/b90f1ca4f7214f1c8c3c061abf0ff564_561x136.png" /></p>
 </li>
 </ol>
-<h3 id="unitree_slam-sdk_1">unitree_slam SDK 실행 방법</h3>
+<h3 id="unitree_slam-sdk">unitree_slam SDK 실행 방법</h3>
 <ol>
 <li>터미널1: 먼저, <code>$ rviz2</code>를 실행하세요. 'File - open configuration'에서 <code>/unitree/lib/unitree_slam/rviz2/</code> 경로에 있는 <code>build_map.rviz</code>를 엽니다.</li>
-<li>터미널2: <code>/unitree/module/graph_pid_ws</code> 경로에서 <code>./0_unitree_slam.sh</code> 파일을 실행합니다.</li>
-<li>터미널3: <code>/unitree/lib/unitree_slam/build</code> 경로에서 <code>./demo_mid360 eth0</code> 또는 <code>./demo_xt16 eth0</code> 를 실행한 후, w key를 눌러 시작합니다.</li>
+<li>
+<p>터미널2: <code>/unitree/module/graph_pid_ws</code> 경로에서 <code>./0_unitree_slam.sh</code> 파일을 실행합니다.</p>
+<p><img alt="터미널2" src="https://doc-cdn.unitree.com/static/2024/9/20/f5db161f799a4860ab1866b5d9ae57fe_1238x409.png" /></p>
+</li>
+<li>
+<p>터미널3: <code>/unitree/lib/unitree_slam/build</code> 경로에서 <code>./demo_mid360 eth0</code> 또는 <code>./demo_xt16 eth0</code> 를 실행한 후, w key를 눌러 시작합니다.</p>
+</li>
 </ol>
 <p><img alt="slam terminal" src="/YMO-support/images/go2_develop/slam_terminal.png" /> </p>
 <hr />
-<h3 id="mid-360">MID-360</h3>
+<h3 id="2mid-360">2️⃣MID-360</h3>
 <ol>
 <li>
 <p>IP: 192.168.123.20</p>
@@ -1278,7 +1288,7 @@ $ ros2 launch livox_ros_driver2 [launch file]
 </li>
 </ol>
 <hr />
-<h3 id="xt-16">XT-16</h3>
+<h3 id="3xt-16">3️⃣XT-16</h3>
 <ol>
 <li>
 <p>IP: 192.168.123.20</p>
