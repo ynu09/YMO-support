@@ -33,21 +33,12 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     - unitree_sdk2를 설치합니다.
     - 'rt/utlidar/cloud' 토픽 subscribe하면 관련 정보를 출력하실 수 있습니다. 
 
-        ```
-        $ ./subscribe_pointcloud  
-        ```  
-        ```
-        Received a raw cloud here!  
-        ```  
-        ```
-        stamp = 1683713030.572689533  
-        ```  
-        ```
-        frame = utlidar_lidar  
-        ```  
-        ```
-        points number = 1402
-        ```  
+            $ ./subscribe_pointcloud 
+            Received a raw cloud here!
+                stamp = 1683713030.572689533  
+                frame = utlidar_lidar  
+                points number = 1402
+
 
 4. rviz2 도구 실행하여 point cloud 시각화
     - 먼저, ```$ rviz2```를 실행하세요.
@@ -78,14 +69,16 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
             height="450"> 
     </iframe>
 
-### <span style="color: blue;">Unitree SDK 사용 가이드</span>
+### <span style="color: blue;">Unitree SDK 가이드</span>
+
+### <span style="color: blue;">Unitree SDK 실행 방법</span>
 
 ### MID-360
-1. IP: '192.168.123.20'
+1. IP: 192.168.123.20
 
 2. Viewer: 🔗[Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
 
-3. **Livox 공식 SDK**
+3. **Livox 공식 SDK 가이드**
 
     : 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions) - support 사이트 참고하여 config.json 수정  
     
@@ -93,6 +86,16 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
     
     - 🔗[Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2)
     - 🔗[livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2)
-    
+
+4. Livox 공식 SDK 실행 방법  
+
+        $ cd ~/livox_ws/
+            # cd ~/[work_space_name]/
+        $ source install/setup.bash
+        $ ros2 launch livox_ros_driver2 [launch file]
+            # ros2 launch livox_ros_driver2 rviz_MID360_launch.py
+
+    - Fixed Frame: livox_frame
+    - Topic: /livox/lidar
 
 ### XT-16
