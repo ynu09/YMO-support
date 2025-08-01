@@ -28,5 +28,7 @@ nav:
       - DFTP - Ultimate D: inspire/dftp.md
   - Z1:
       - 모델 소개: z1/model.md
+      - 하드웨어: z1/hardware.md
+      - 개발 가이드: z1/develop_manual.md
 
   - A/S: after_service/after_service.md
