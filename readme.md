@@ -5,7 +5,7 @@ YMO-support는 영인모빌리티 응용지원팀에서 운영하는 Unitree 제
 ###  배포 주소
 [https://ynu09.github.io/YMO-support/](https://ynu09.github.io/YMO-support/)
 
-### 기술문서
+### 기술문서 
 
 - Go2 - 4족보행 로봇
 - G1 - 휴머노이드 로봇
@@ -47,4 +47,4 @@ YMO-support는 영인모빌리티 응용지원팀에서 운영하는 Unitree 제
 
 ### 🙋 관리자
 **영인모빌리티 응용지원팀 서연우 사원**
-- Unitree 실사용 기반으로 정리
+실제 납품 및 기술지원을 기반으로 사용 가이드를 정리하였습니다.
