@@ -1,6 +1,10 @@
 ### 로봇팔 설치 
 ![설치](https://oss-global-cdn.unitree.com/static/3713d551c0744bdc822b60c3e61c70e7.JPG
 )
+
+### 케이블 연결
+![연결](https://oss-global-cdn.unitree.com/static/1c45c432002348c0b1087a573fe9c2d4_3508x2481.jpg)
+
 ### 관절 범위
 ![관절 범위](https://oss-global-cdn.unitree.com/static/43c682829eb145a79473c201d687aac1_1041x686.png)
 
