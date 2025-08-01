@@ -1,12 +1,12 @@
-# 🛠️ YMO-support
+## 🛠️ YMO-support
 
 YMO-support는 **로봇 기술지원용 정적 웹사이트**로, Yahboom / Unitree / 기타 로봇 플랫폼의 A/S 및 셋업 가이드를 정리한 문서 모음입니다.  
 이 저장소는 GitHub Pages 또는 로컬 서버를 통해 서비스됩니다.
 
-## 🌍 배포 주소 (로컬 테스트 기준)
+### 🌍 배포 주소 (로컬 테스트 기준)
 `https://ynu09.github.io/YMO-support/`
 
-## 📚 기술문서
+### 📚 기술문서
 
 - Go2 - 4족보행 로봇
 - G1 - 휴머노이드 로봇
@@ -14,7 +14,7 @@ YMO-support는 **로봇 기술지원용 정적 웹사이트**로, Yahboom / Unit
 - Z1 - 로봇팔
 - A/S
 
-## 구조
+### 구조
 ├── YMO-support
 │   ├── index.md # 메인 페이지: 홈
 │   ├── after_service # A/S
@@ -45,6 +45,6 @@ YMO-support는 **로봇 기술지원용 정적 웹사이트**로, Yahboom / Unit
 │       └── readme.md
 └── mkdocs.yml
 
-## 🙋 관리자
+### 🙋 관리자
 영인모빌리티 응용지원팀 서연우 사원
 - Unitree 실사용 기반으로 정리
