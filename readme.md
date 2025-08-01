@@ -45,6 +45,6 @@ YMO-support는 **로봇 기술지원용 정적 웹사이트**로, Yahboom / Unit
 │       └── readme.md
 └── mkdocs.yml
 
-## 🙋 제작자
+## 🙋 관리자
 영인모빌리티 응용지원팀 서연우 사원
 - Unitree 실사용 기반으로 정리
