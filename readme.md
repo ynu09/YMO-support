@@ -1,5 +1,7 @@
 ## 🛠️ YMO-support
 
+![robots](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF0bZxs66vE1usLi6J-ihLPxUgm_ac71EreA&s)
+
 YMO-support는 영인모빌리티 응용지원팀에서 운영하는 Unitree 제품 기술지원 웹사이트로, Go2, G1, Inspire, Z1 등 다양한 로봇 제품군에 대한 가이드를 체계적으로 정리한 문서입니다. 본 사이트는 사용자가 실사용에서 바로 활용할 수 있도록 구성되어 있습니다.   
 
 ###  배포 주소
