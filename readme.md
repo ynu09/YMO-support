@@ -4,7 +4,7 @@ YMO-support는 **로봇 기술지원용 정적 웹사이트**로, Yahboom / Unit
 이 저장소는 GitHub Pages 또는 로컬 서버를 통해 서비스됩니다.
 
 ###  배포 주소
-![https://ynu09.github.io/YMO-support/](https://ynu09.github.io/YMO-support/)
+[https://ynu09.github.io/YMO-support/](https://ynu09.github.io/YMO-support/)
 
 ### 기술문서
 
