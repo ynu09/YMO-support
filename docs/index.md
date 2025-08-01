@@ -35,5 +35,5 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
 
-⏱️ **마지막 업데이트: 2025-08-01**  
-👤 **관리자: 영인모빌리티 | 응용지원팀 서연우**
+⏱️ 마지막 업데이트: 2025-08-01  
+👤 관리자: 영인모빌리티 | 응용지원팀 서연우
