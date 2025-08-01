@@ -103,6 +103,7 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
 
 2. Viewer: 🔗[Livox Viewer2_Window Version](https://www.livoxtech.com/mobile/downloads) 
     ![livox viewer](https://doc-cdn.unitree.com/static/2024/7/26/cf6820038cb44907898098d241354765_1843x1054.png)
+    
 3. Livox 공식 SDK 가이드
 
     : 🔗[Manual - Unitree Support](https://support.unitree.com/home/en/G1_developer/lidar_Instructions) - 참고하여 MID360_config.json 수정  

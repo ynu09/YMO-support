@@ -25,7 +25,7 @@
 <video width="600" controls>
   <source src="https://www.unitree.com/images/79d7c4a04e484ae8a3ff3a6e378f02fe.mp4" type="video/mp4">
 </video>
-⚠️ <span style="color: red";>Calibration 중에는 허리 모터가 움직이지 않도록 허리 고정장치를 장착한 상태에서 진행해야 합니다</span>
+🚨 Calibration 중에는 허리 모터가 움직이지 않도록 허리 고정장치를 장착한 상태에서 진행해야 합니다
 ⚠️ 앱에서 허리모터 잠금 스위치(Waist Motor Lock Switch)를 꺼야 보정이 제대로 작동합니다. 
 
 ### 음성 인식
@@ -51,4 +51,4 @@
 2. Inspire DFX 손의 그립 성능
     - A4 용지 두께의 얇은 물체도 안정적으로 잡을 수 있습니다
     - 위치 반복 정밀도: ±0.2mm  
-    ⚠️ <span style="color: red";>성능은 적용된 강화학습 알고리즘 및 데이터셋 품질에 따라 달라질 수 있습니다</span>
+    ⚠️ 성능은 적용된 강화학습 알고리즘 및 데이터셋 품질에 따라 달라질 수 있습니다.
