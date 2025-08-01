@@ -39,6 +39,8 @@ extra:
       link: https://github.com/ynu09/YMO-support
 
   meta:
+    - name: "google-site-verification"
+      content: "GpGrsmshxREolDgxoIzlkTJUDyK7jCoHiDW71qhI-mA"
     - name: description
       content: 영인모빌리티 Unitree 로봇 기술지원 페이지입니다. Go2, G1, Z1, Inspire 시리즈의 사용 가이드 및 개발 문서를 제공합니다.
     - name: keywords
