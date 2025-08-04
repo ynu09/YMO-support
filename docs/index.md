@@ -1,6 +1,6 @@
 # YMO 영인모빌리티 기술자료실
 
-![YMO 이미지](/YMO-support/images/ymo.png)
+![YMO 로고](/YMO-support/images/ymo.png)
 
 안녕하세요 👋  
 영인모빌리티의 Unitree 로봇 기술지원 문서에 오신 것을 환영합니다.
@@ -10,17 +10,18 @@
 - Inspire - 로봇손 
 - Z1 - 로봇팔 
 - A/S
+- 기술 질문
 
 로봇 관련 문의사항이나 기술지원이 필요하시면 언제든지 연락주시기 바랍니다!  
 
-**📞응용지원팀: 02-6077-3606 / 02-6077-3607**  
+**☎️ 응용지원팀: 02-6077-3606 / 02-6077-3607**  
 
 추가 배터리 구매는 영업팀으로 연락 부탁드립니다.  
 
-**📞영업팀: 02-6077-3608 / 02-6077-3610**  
+**☎️ 영업팀: 02-6077-3608 / 02-6077-3610**  
 
 ---
-<span style="font-weight: bold;">Unitree 개발도구
+<span style="font-weight: bold;">Unitree 개발 리소스
 
 1. 🔗[Unitree Support site](https://support.unitree.com/main)  
     
