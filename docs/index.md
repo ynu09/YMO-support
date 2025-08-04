@@ -32,7 +32,7 @@
     - unitree_sdk2_python: unitree_sdk2를 Python으로 제어할 수 있게 해주는 인터페이스입니다.
 ---
 
-<h2 style="font-weight: 900;">🔥새로운 휴머노이드 R1 출시‼️</h2>
+<h2 style="font-weight: 900;">🦿신제품: 휴머노이드 R1 출시‼️</h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
 
