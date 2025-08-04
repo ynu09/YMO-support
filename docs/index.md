@@ -32,8 +32,9 @@
     - unitree_sdk2_python: unitree_sdk2를 Python으로 제어할 수 있게 해주는 인터페이스입니다.
 ---
 
-<h2 style="font-weight: 900;">🦿신제품: 휴머노이드 R1 출시‼️</h2>
-
+<h2 style="font-weight: 900;">📢 신제품 소식: 휴머노이드 R1</h2>
+Unitree의 최신 휴머노이드 로봇 R1이 공개되었습니다.  
+자세한 영상은 아래를 참고해주세요.  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
 
 ⏱️ 최종 업데이트일: 2025-08-01  
