@@ -38,5 +38,5 @@ Unitree의 최신 휴머노이드 로봇 R1이 공개되었습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
 
-⏱️ 최종 업데이트일: 2025-08-01  
+⏱️ 최종 업데이트: 2025-08-01  
 👤 관리자: 영인모빌리티 | 응용지원팀 서연우 사원
