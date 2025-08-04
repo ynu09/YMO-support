@@ -76,6 +76,17 @@
 
 ---
 
+### 펌웨어 업데이트 방법
+1. 로봇 배터리를 충분히 충전해주세요.
+2. 앱에서 Go2에 Wi-Fi 모드로 연결합니다.
+3. 아래 두 가지 방법 중 선택
+    - 방법 1: “Go!” 버튼을 누르면, “New Firmware”라는 메시지와 함께 업데이트 팝업이 나타납니다.
+    - 방법 2: “Device-Update” 설정으로 들어가 업데이트를 진행할 수 있습니다.
+
+        <img src="/YMO-support/images/g1_education/firmware.png" width="700" height="auto">
+
+---
+
 ### Audio Player
 미리 녹음한 문장을 스피커로 내보낼 수 있습니다. 
 <video width="700" controls>
