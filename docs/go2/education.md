@@ -77,6 +77,11 @@
 ---
 
 ### 펌웨어 업데이트 방법
+
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_3_en.mp4" type="video/mp4">
+</video>
+
 1. 로봇 배터리를 충분히 충전해주세요.
 2. 앱에서 Go2에 Wi-Fi 모드로 연결합니다.
 3. 아래 두 가지 방법 중 선택
