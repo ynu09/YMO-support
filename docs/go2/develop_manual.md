@@ -86,6 +86,10 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
         $ sudo ./install.sh
     ![설치 사진](https://doc-cdn.unitree.com/static/2024/9/20/b90f1ca4f7214f1c8c3c061abf0ff564_561x136.png)
 
+⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
+
+---
+
 ### unitree_slam SDK 실행 방법
 1. 터미널1: 먼저, ```$ rviz2```를 실행하세요. 'File - open configuration'에서 ```/unitree/lib/unitree_slam/rviz2/``` 경로에 있는 ```build_map.rviz```를 엽니다.
 2. 터미널2: ```/unitree/module/graph_pid_ws``` 경로에서 ```./0_unitree_slam.sh``` 파일을 실행합니다.
@@ -138,3 +142,5 @@ Type-C to HDMI 어댑터를 Expansion dock의 Type-C 인터페이스에 삽입�
 1. IP: 192.168.123.20
 
 2. Viewer: 🔗[Pandar View2_Window Version](https://www.hesaitech.com/downloads/)
+
+⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
