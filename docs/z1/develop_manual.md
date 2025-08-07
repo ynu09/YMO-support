@@ -2,7 +2,8 @@
 
 ## Prepare
 ### IP
-192.168.123.110
+192.168.123.110  
+⚠️ 로봇과 PC를 이더넷으로 연결 후 ```python3 unitreeArmTools.py``` 실행하시면 IP 변경이 가능합니다. (우측 랜포트)
 
 ### SDK 다운로드
 - 컨트롤러: [z1_controller](https://github.com/unitreerobotics/z1_controller)
@@ -44,5 +45,15 @@ Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가�
 3. unitree_ros: 시뮬레이션 파일
 
     [다운로드 - unitree_ros](https://github.com/unitreerobotics/unitree_ros)
+
+### z1_controller
+✅ 초기 실행 시 build 디렉터리 생성 후 컴파일하면 ```z1_ctrl``` 실행파일을이 생성됩니다.  
+
+- 버전 확인: ```./z1_ctrl -v```
+- 키보드 제어: ```./z1_ctrl k```
+- SDK 제어: ```./z1_ctrl```
+
+Gazebo가 설치되어 있다면, ```unitree_ros``` 시뮬레이션과 통신하는데 사용되는 ```sim_ctrl``` 실행파일도 생성됩니다.   
+
 
 ⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
