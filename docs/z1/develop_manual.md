@@ -2,7 +2,7 @@
 
 ## Prepare
 ### IP
-ip: 192.168.123.110  
+기본 ip: 192.168.123.110  
 
 ⚠️ 로봇과 PC를 이더넷으로 연결 후 ```python3 unitreeArmTools.py``` 실행하시면 IP 변경이 가능합니다. (우측 랜포트)
 
@@ -55,6 +55,8 @@ Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가�
 - SDK 제어: ```./z1_ctrl```
 
 Gazebo가 설치되어 있다면, ```unitree_ros``` 시뮬레이션과 통신하는데 사용되는 ```sim_ctrl``` 실행파일도 생성됩니다.   
+
+### z1_sdk
 
 
 ⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
