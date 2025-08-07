@@ -15,7 +15,7 @@
 ### 관절 범위
 ![관절 범위](https://oss-global-cdn.unitree.com/static/43c682829eb145a79473c201d687aac1_1041x686.png)
 
-### 관절 좌표
+### JOINTCTRL 관절 좌표
 ![관절 좌표](https://oss-global-cdn.unitree.com/static/f91e1ab0aa7a4808b8d07cf9773d2798_2481x4554.png)
 
 ### Cartesian coordinate

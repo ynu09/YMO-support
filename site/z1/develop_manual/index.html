@@ -982,27 +982,36 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#z1_controller" class="md-nav__link">
+  <a href="#1-z1_controller" class="md-nav__link">
     <span class="md-ellipsis">
-      z1_controller
+      1️⃣ z1_controller
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#z1_sdk" class="md-nav__link">
+  <a href="#2-z1_sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      z1_sdk
+      2️⃣ z1_sdk
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#ros-simulation" class="md-nav__link">
+  <a href="#3-ros-simulation" class="md-nav__link">
     <span class="md-ellipsis">
-      ROS simulation 연동
+      3️⃣ ROS simulation 연동
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      예제 실행
     </span>
   </a>
   
@@ -1014,11 +1023,26 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#keyboard-guide" class="md-nav__link">
     <span class="md-ellipsis">
-      예제 실행
+      Keyboard Guide
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Keyboard Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jointctrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      JOINTCTRL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1188,27 +1212,36 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#z1_controller" class="md-nav__link">
+  <a href="#1-z1_controller" class="md-nav__link">
     <span class="md-ellipsis">
-      z1_controller
+      1️⃣ z1_controller
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#z1_sdk" class="md-nav__link">
+  <a href="#2-z1_sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      z1_sdk
+      2️⃣ z1_sdk
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#ros-simulation" class="md-nav__link">
+  <a href="#3-ros-simulation" class="md-nav__link">
     <span class="md-ellipsis">
-      ROS simulation 연동
+      3️⃣ ROS simulation 연동
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      예제 실행
     </span>
   </a>
   
@@ -1220,11 +1253,26 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#keyboard-guide" class="md-nav__link">
     <span class="md-ellipsis">
-      예제 실행
+      Keyboard Guide
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Keyboard Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jointctrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      JOINTCTRL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1287,7 +1335,7 @@
 <p><a href="https://github.com/unitreerobotics/unitree_ros">다운로드 - unitree_ros</a></p>
 </li>
 </ol>
-<h3 id="z1_controller">z1_controller</h3>
+<h3 id="1-z1_controller">1️⃣ z1_controller</h3>
 <p>✅ 초기 실행 시 build 디렉터리 생성 후 컴파일하면 <code>z1_ctrl</code> 실행파일을이 생성됩니다.  </p>
 <pre><code>$ cd z1_controller    
 $ mkdir build &amp; cd build
@@ -1300,7 +1348,7 @@ $ make
 <li>SDK 제어: <code>./z1_ctrl</code></li>
 </ul>
 <p>Gazebo가 설치되어 있다면, <code>unitree_ros</code> 시뮬레이션과 통신하는데 사용되는 <code>sim_ctrl</code> 실행파일도 생성됩니다.   </p>
-<h3 id="z1_sdk">z1_sdk</h3>
+<h3 id="2-z1_sdk">2️⃣ z1_sdk</h3>
 <p>examples: 예제 코드로 SDK 사용법을 설명합니다.  </p>
 <ol>
 <li>highcmd_basic: 간단한 동작을 위한 예제/주요 함수  </li>
@@ -1310,8 +1358,7 @@ $ make
 </li>
 </ol>
 <p>example_py: z1_sdk의 python 버전 인터페이스를 포함합니다. </p>
-<hr />
-<h3 id="ros-simulation">ROS simulation 연동</h3>
+<h3 id="3-ros-simulation">3️⃣ ROS simulation 연동</h3>
 <ol>
 <li>
 <p>workspace 생성</p>
@@ -1324,18 +1371,23 @@ $ make
 <li>경로: ~/unitree_ws/src/unitree_ros  </li>
 </ul>
 </li>
-<li>src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  <ul>
+<li>
+<p>src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  </p>
+<ul>
+<li><a href="https://github.com/unitreerobotics/unitree_ros_to_real">다운로드 - unitree_legged_msgs</a> </li>
 <li>경로: ~/unitree_ws/src/unitree_legged_msgs  </li>
 </ul>
 </li>
-<li>빌드 및 환경 설정   <pre><code>$ cd ~/unitree_ws
+<li>
+<p>빌드 및 환경 설정   </p>
+<pre><code>$ cd ~/unitree_ws
 $ catkin_make
 $ echo “source ~/unitree_ros/devel/setup.bash”&gt;&gt;~/.bashrc
 $ source ~/.bashrc
 </code></pre>
 </li>
 </ol>
-<h2 id="_4">예제 실행</h2>
+<h3 id="_4">예제 실행</h3>
 <ol>
 <li>
 <p>실제 기계 제어</p>
@@ -1359,6 +1411,48 @@ Terminal3
 </code></pre>
 </li>
 </ol>
+<hr />
+<h2 id="keyboard-guide">Keyboard Guide</h2>
+<h3 id="jointctrl">JOINTCTRL</h3>
+<p>JOINTCTRL 모드는 로봇팔의 관절 공간 속도 제어를 위한 기능입니다. 키보드를 길게 눌러 6개의 관절을 직접 제어하여 로봇팔을 움직일 수 있습니다.</p>
+<p><span style="color: red;">⚠️ 주의: 모든 관절 좌표계는 오른손 법칙을 따릅니다.</span><br />
+사용 전 각 관절의 정/역방향 움직임을 반드시 확인해주시기 바랍니다.</p>
+<table>
+<thead>
+<tr>
+<th>Joint ID</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>Gripper</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keyboard (+ ; 정방향)</td>
+<td>Q</td>
+<td>W</td>
+<td>D</td>
+<td>R</td>
+<td>T</td>
+<td>Y</td>
+<td>방향키 ↑</td>
+</tr>
+<tr>
+<td>Keyboard (− ; 역방향)</td>
+<td>A</td>
+<td>S</td>
+<td>E</td>
+<td>F</td>
+<td>G</td>
+<td>H</td>
+<td>방향키 ↓</td>
+</tr>
+</tbody>
+</table>
 
 
 
