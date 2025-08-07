@@ -47,7 +47,7 @@ Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가�
 
     [다운로드 - unitree_ros](https://github.com/unitreerobotics/unitree_ros)
 
-### z1_controller
+### 1️⃣ z1_controller
 ✅ 초기 실행 시 build 디렉터리 생성 후 컴파일하면 ```z1_ctrl``` 실행파일을이 생성됩니다.  
 
     $ cd z1_controller    
@@ -61,7 +61,7 @@ Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가�
 
 Gazebo가 설치되어 있다면, ```unitree_ros``` 시뮬레이션과 통신하는데 사용되는 ```sim_ctrl``` 실행파일도 생성됩니다.   
 
-### z1_sdk
+### 2️⃣ z1_sdk
 examples: 예제 코드로 SDK 사용법을 설명합니다.  
 
 1. highcmd_basic: 간단한 동작을 위한 예제/주요 함수  
@@ -70,9 +70,7 @@ examples: 예제 코드로 SDK 사용법을 설명합니다.
 
 example_py: z1_sdk의 python 버전 인터페이스를 포함합니다. 
 
----
-
-### ROS simulation 연동
+### 3️⃣ ROS simulation 연동
 1. workspace 생성
     
     : ROS 패키지를 구성할 워크스페이스를 생성합니다. 
@@ -82,7 +80,9 @@ example_py: z1_sdk의 python 버전 인터페이스를 포함합니다.
 2. src 폴더 안에 unitree_ros 폴더를 넣어줍니다.  
     - 경로: ~/unitree_ws/src/unitree_ros  
 3. src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  
+    - [다운로드 - unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real) 
     - 경로: ~/unitree_ws/src/unitree_legged_msgs  
+
 4. 빌드 및 환경 설정   
 
         $ cd ~/unitree_ws
@@ -90,7 +90,7 @@ example_py: z1_sdk의 python 버전 인터페이스를 포함합니다.
         $ echo “source ~/unitree_ros/devel/setup.bash”>>~/.bashrc
         $ source ~/.bashrc
 
-## 예제 실행
+### 예제 실행
 1. 실제 기계 제어
 
         Terminal1
@@ -109,3 +109,17 @@ example_py: z1_sdk의 python 버전 인터페이스를 포함합니다.
         
         Terminal3
         ~/unitree_ws/src/z1_sdk/build$ ./highcmd_basic
+
+---
+
+## Keyboard Guide
+### JOINTCTRL
+JOINTCTRL 모드는 로봇팔의 관절 공간 속도 제어를 위한 기능입니다. 키보드를 길게 눌러 6개의 관절을 직접 제어하여 로봇팔을 움직일 수 있습니다.
+
+<span style="color: red;">⚠️ 주의: 모든 관절 좌표계는 오른손 법칙을 따릅니다.</span>  
+사용 전 각 관절의 정/역방향 움직임을 반드시 확인해주시기 바랍니다.
+
+| Joint ID | 0 | 1 | 2 | 3 | 4 | 5 | Gripper |  
+|----------|---|---|---|---|---|---|---------|    
+| Keyboard (+ ; 정방향) | Q | W | D | R | T | Y | 방향키 ↑ |  
+| Keyboard (− ; 역방향) | A | S | E | F | G | H | 방향키 ↓ |
