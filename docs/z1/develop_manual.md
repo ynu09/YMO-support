@@ -58,9 +58,9 @@ Gazebo가 설치되어 있다면, ```unitree_ros``` 시뮬레이션과 통신하
 
 ### z1_sdk
 examples: 예제 코드로 SDK 사용법을 설명합니다.  
+
 1. highcmd_basic: 간단한 동작을 위한 예제/주요 함수  
 2. lowcmd_development: 모터의 PD 파라미터 직접 제어  
+    - 제어 파라미터: q, qd, τf, kp, kd  
     
-- 제어 파라미터: q, qd, τf, kp, kd  
-  
 ⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
