@@ -80,3 +80,14 @@ example_py: z1_sdk의 python 버전 인터페이스를 포함합니다.
 
         Terminal2
         ~/unitree_ws/src/z1_sdk/build$ ./highcmd_basic
+
+2. 시뮬레이션 제어
+
+        Terminal1
+        ~/unitree_ws$ roslaunch unitree_gazebo z1.launch
+        
+        Terminal2
+        ~/unitree_ws/src/z1_controller/build$ ./sim_ctrl
+        
+        Terminal3
+        ~/unitree_ws/src/z1_sdk/build$ ./highcmd_basic
