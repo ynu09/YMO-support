@@ -999,6 +999,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#ros-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ROS simulation
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1196,6 +1205,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#ros-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ROS simulation
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1293,6 +1311,35 @@ $ make
 </ol>
 <p>example_py: z1_sdk의 python 버전 인터페이스를 포함합니다. </p>
 <hr />
+<h3 id="ros-simulation">ROS simulation</h3>
+<ol>
+<li>
+<p>workspace를 생성합니다.  </p>
+<p><code>$ mkdir -p unitree_ws/src</code></p>
+</li>
+<li>
+<p>src 폴더 안에 unitree_ros 폴더를 넣어줍니다.  </p>
+<ul>
+<li>경로: ~/unitree_ws/src/unitree_ros  </li>
+</ul>
+</li>
+<li>src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  <ul>
+<li>경로: ~/unitree_ws/src/unitree_legged_msgs  </li>
+</ul>
+</li>
+<li>
+<p>빌드해줍니다.  </p>
+<pre><code>$ cd ~/unitree_ws
+$ catkin_make
+$ echo “source ~/unitree_ros/devel/setup.bash”&gt;&gt;~/.bashrc
+$ source ~/.bashrc
+</code></pre>
+</li>
+<li>
+<p>빌드 성공 여부 확인  </p>
+<p><code>~/unitree_ws$ roslaunch unitree_gazebo z1.launch</code></p>
+</li>
+</ol>
 <h2 id="_4">예제 실행</h2>
 <ol>
 <li>

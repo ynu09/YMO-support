@@ -72,8 +72,10 @@ example_py: z1_sdk의 python 버전 인터페이스를 포함합니다.
 
 ---
 
-### ROS simulation
-1. workspace를 생성합니다.  
+### ROS simulation 연동
+1. workspace 생성
+    
+    : ROS 패키지를 구성할 워크스페이스를 생성합니다. 
 
     ```$ mkdir -p unitree_ws/src```
 
@@ -81,16 +83,12 @@ example_py: z1_sdk의 python 버전 인터페이스를 포함합니다.
     - 경로: ~/unitree_ws/src/unitree_ros  
 3. src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  
     - 경로: ~/unitree_ws/src/unitree_legged_msgs  
-4. 빌드해줍니다.  
+4. 빌드 및 환경 설정   
 
         $ cd ~/unitree_ws
         $ catkin_make
         $ echo “source ~/unitree_ros/devel/setup.bash”>>~/.bashrc
         $ source ~/.bashrc
-
-5. 빌드 성공 여부 확인  
-
-    ```~/unitree_ws$ roslaunch unitree_gazebo z1.launch```
 
 ## 예제 실행
 1. 실제 기계 제어
