@@ -31,12 +31,16 @@
     - unitree_sdk2: C++ 기반의 저수준 모터 제어, 고수준 모션 제어, LiDAR point cloud data, 오디오 및 비디오 전송, SLAM 등의 인터페이스를 제공합니다. 
     - unitree_sdk2_python: unitree_sdk2를 Python으로 제어할 수 있게 해주는 인터페이스입니다.
 ---
+<h2 style="font-weight: 900;">📢 신제품 소식: 로봇개 A2</h2>
+Unitree의 최신 4족보행 로봇 A2가 공개되었습니다.  
+자세한 영상은 아래를 참고해주세요.  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z2oh9wm809Q" frameborder="0" allowfullscreen></iframe>
 
 <h2 style="font-weight: 900;">📢 신제품 소식: 휴머노이드 R1</h2>
 Unitree의 최신 휴머노이드 로봇 R1이 공개되었습니다.  
 자세한 영상은 아래를 참고해주세요.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v1Q4Su54iho" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BYVH_0zVBVU" frameborder="0" allowfullscreen></iframe>
 
-⏱️ 최종 업데이트: 2025-08-01  
+⏱️ 최종 업데이트: 2025-08-07  
 👤 관리자: 영인모빌리티 | 응용지원팀 서연우 사원
