@@ -1,5 +1,6 @@
 # Z1 Robotic Arm Development Documentation
 
+## Prepare
 ### IP
 192.168.123.110
 
@@ -21,11 +22,25 @@
 네트워크 구성 후, 로봇팔과의 연결이 정상인지 확인합니다.   
 ```ping 192.168.123.110```
 
+---
+
+## SDK
 ### 시스템 요구사항
 Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가능합니다.  
 필수 종속 패키지는 다음과 같습니다.  
 
 - libboost-dev  
 - libeigen3-dev 
- 
+
+### 제공되는 파일
+1. z1_controller: Z1 로봇팔을 직접 제어하는 실행 코드
+
+    [다운로드 - z1_controller](https://github.com/unitreerobotics/z1_controller)
+
+2. z1_sdk: Z1 제어에 사용되는 다양한 인터페이스 포함  
+    
+    [다운로드 - z1_sdk](https://github.com/unitreerobotics/z1_sdk)
+
+3. unitree_ros: 시뮬레이션 파일
+
 ⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
