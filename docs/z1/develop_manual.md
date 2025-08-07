@@ -54,7 +54,7 @@ Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가�
     $ mkdir build & cd build
     $ cmake ..
     $ make
-    
+
 - 버전 확인: ```./z1_ctrl -v```
 - 키보드 제어: ```./z1_ctrl k```
 - SDK 제어: ```./z1_ctrl```
@@ -70,4 +70,13 @@ examples: 예제 코드로 SDK 사용법을 설명합니다.
 
 example_py: z1_sdk의 python 버전 인터페이스를 포함합니다. 
 
-⚠️ <span style="color: red;">아직 내용 업데이트 중입니다.</span>
+---
+
+## 예제 실행
+1. 실제 기계 제어
+
+        Terminal1
+        ~/unitree_ws/src/z1_controller/build$ ./z1_ctrl
+
+        Terminal2
+        ~/unitree_ws/src/z1_sdk/build$ ./highcmd_basic
