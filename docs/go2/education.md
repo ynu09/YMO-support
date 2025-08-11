@@ -11,12 +11,6 @@
 ### 조종기 기능
 ![controller 이미지](/YMO-support/images/go2_education/controller_img.png)
 
-### Go2 조종기 바인딩  
-새로운 조종기로 교체하시는 경우, 로봇과 조종기 간 바인딩이 필요합니다. 
-<video width="700" controls>
-<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_9_en.mp4">
-</video>
-
 ---
 
 ### **[ON]** 로봇 일으키는 방법
@@ -92,6 +86,15 @@ Damping Mode(Emergency Stop): L2+B
 | Dance 2 | L1+X | 긴 시간의 지정 동작 댄스 |
 | Hand Stand | Double Click R1 | 물구나무서기 |
 | Erect | Double Click R2 | 두 발로 걷기 |
+
+---
+
+### Go2 조종기 바인딩  
+새로운 조종기로 교체하시는 경우, 로봇과 조종기 간 바인딩이 필요합니다. 
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_9_en.mp4">
+</video>
+
 ---
 
 ### Accompanying 모드🐕
