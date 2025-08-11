@@ -57,7 +57,7 @@ Damping Mode(Emergency Stop): L2+B
 |-----|-----|-------|
 | Pose | SELECT | 서기 (모드 1🔹) |
 | Unlock/Default Gait | START | 관절 잠금 해제 → 이동 (모드 2🔸) |
-| Running | L2 + START| 달리기 모드 진입 (해제하려면, START 버튼 다시 누르기) |
+| Running | L2 + START | 달리기 모드 진입 (해제하려면, START 버튼 다시 누르기) |
 | Stand Lock/Low Down | L2+A | 관절 잠금 → 한 번 더 누르면 엎드리기 → 한 번 더 누르면, 서는 자세로 복원 |
 
 ### 스틱 조작
@@ -86,6 +86,16 @@ Damping Mode(Emergency Stop): L2+B
 | Dance 2 | L1+X | 긴 시간의 지정 동작 댄스 |
 | Hand Stand | Double Click R1 | 물구나무서기 |
 | Erect | Double Click R2 | 두 발로 걷기 |
+
+---
+
+### 기능 전환
+| 모드 | 조작 | 설명 |
+|-----|-----|---------------------------------|  
+| Searchlight Switch | L2 + SELECT | 탐조등 켜기 |
+| Avoidance OFF | Y 3초 누르기 | 장애물 회피 모드 끄기 |
+| Avoidance ON | X 1초 누르기 | 장애물 회피 모드 켜기 |
+| Vibration/Buzzer Toggle | F3키 3번 누르기 | 조종기 진동/소리 전환 |
 
 ---
 
