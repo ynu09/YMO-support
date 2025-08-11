@@ -2,16 +2,10 @@
 ✅[Go2 앱 다운로드/Tutorial 영상/매뉴얼 링크](https://www.unitree.com/app/go2/)
 
 ## <h2 style="font-weight: 900;">1️⃣로봇 부팅</h2>
+(0:37)부터 확인하세요!
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_1_en.mp4" type="video/mp4">
 </video>
-
-## <h2 style="font-weight: 900;">2️⃣조종기</h2>
-
-### 조종기 기능
-![controller 이미지](/YMO-support/images/go2_education/controller_img.png)
-
----
 
 ### **[ON]** 로봇 일으키는 방법
 1. 로봇 자세 준비  
@@ -28,6 +22,13 @@
     - 로봇: 버튼 짧게 1회, 길게 1회(약 3초)  
     - 조종기: 버튼 짧게 1회, 길게 1회(약 3초) 
 4. 부팅이 완료되면 로봇이 자동으로 일어납니다. 
+
+---
+
+## <h2 style="font-weight: 900;">2️⃣조종기</h2>
+
+### 조종기 기능
+![controller 이미지](/YMO-support/images/go2_education/controller_img.png)
 
 ---
 
