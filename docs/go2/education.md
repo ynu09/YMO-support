@@ -167,6 +167,12 @@ Damping Mode(Emergency Stop): L2+B
 
         <img src="/YMO-support/images/g1_education/firmware.png" width="700" height="auto">
 
+4. 업데이트  
+
+    : 업데이트 되는 내용은 좌측 설명에서 확인하실 수 있습니다. 
+
+    <img src="https://www.unitree.com/images/fe1b319a6ad6487dbacfdff4fa33d6e3_1498x746.png" width="700" height="auto">
+
 ---
 
 ### Audio Player
@@ -192,6 +198,7 @@ Damping Mode(Emergency Stop): L2+B
 ---
 
 ### 블록코딩
+<img src="https://www.unitree.com/images/63e3a763aac24fdc9c2dfe709955cf30_1498x746.png" width="700" height="auto">
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_10_en.mp4" type="video/mp4">
 </video>
