@@ -121,6 +121,13 @@ Damping Mode(Emergency Stop): L2+B
 
 ---
 
+### 로봇개와 산책
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_13_en.mp4" type="video/mp4">
+</video>
+
+---
+
 ## <h2 style="font-weight: 900;">3️⃣앱 기능</h2>
 
 ### 앱-로봇 연결
@@ -176,6 +183,7 @@ Damping Mode(Emergency Stop): L2+B
     
     🚨**주의!** <span style="color: red;">영어, 중국어만 지원합니다.</span>  
     ex) 명령 예시: "Take one step forward"
+    <img src="https://www.unitree.com/images/91030c9a3f994c5281fe23630d308b76_1498x746.png" width="700" height="auto">
 
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_7_en.mp4" type="video/mp4">
@@ -198,6 +206,17 @@ Damping Mode(Emergency Stop): L2+B
 
 ---
 
+### Simulation
+<img src="https://www.unitree.com/images/0ee22b83910c48e2a073661b6935b922_1498x746.png" width="700" height="auto">
+
+---
+
+### Lively Pet
+<video width="700" controls>
+<source src="https://marketing.unitree.com/robot/static/2025/1/20/e0d42ae72755428c8da1bb9406c940ae.mp4" type="video/mp4">
+</video>
+
+---
 ### Calibration 
 로봇의 걸음이 이상하거나 모터가 오작동할 경우, 앱 안내에 따라 Calibration을 진행합니다.
 <video width="700" controls>
