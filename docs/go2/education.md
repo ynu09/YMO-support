@@ -100,7 +100,7 @@ Damping Mode(Emergency Stop): L2+B
 
 | 모드 | 조작 | 설명 |
 |-----|-----|---------------------------------|  
-| Searchlight Switch | L2 + SELECT | 탐조등 켜기 |
+| Searchlight Switch | L2 + SELECT | 탐조등 켜기/끄기 |
 | Avoidance OFF | Y 3초 누르기 | 장애물 회피 모드 끄기 |
 | Avoidance ON | X 1초 누르기 | 장애물 회피 모드 켜기 |
 | Vibration/Buzzer Toggle | F3키 3번 누르기 | 조종기 진동/소리 전환 |
