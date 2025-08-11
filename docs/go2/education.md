@@ -55,12 +55,15 @@ Damping Mode(Emergency Stop): L2+B
 ### 자세 전환
 
 | 모드 | 조작 | 자세 |
-|-----|-----|-------|
+|-----|-----|-------------------|
 | Pose | SELECT | 서기 (모드 1🔹) |
 | Unlock/Default Gait | START | 관절 잠금 해제 → 이동 (모드 2🔸) |
 | Running | L2 + START | 달리기 모드 진입 (해제하려면, START 버튼 다시 누르기) |
-| Stand Lock/Low Down | L2+A | 관절 잠금 → 한 번 더 누르면 엎드리기 → 한 번 더 누르면, 서는 자세로 복원 |
-| Hand Stand | Double Click R1 | 물구나무서기 |
+| Stand Lock/Low Down | L2+A | 관절 잠금 → 한 번 더 누르면 엎드리기 → 한 번 더 누르면 서는 자세로 복원 |
+| Cross Step | Double Click B | 다리를 교차하며 걷기 |
+| Bound | Double Click X | 껑충껑충 뛰기 |
+| Jump | Doble Click Y | 연속 점프로 앞으로 이동 | 
+| Hand Stand | Double Click R1 | 물구나무 서기 |
 | Erect | Double Click R2 | 두 발로 걷기 |
 
 ### 스틱 조작
