@@ -1,3 +1,8 @@
+### 케이블 주의사항
+전원이 반드시 꺼진 상태에서만 탈착합니다.  
+
+<img src="/YMO-support/images/g1_cable.png" width="700" height="auto">
+
 ### 기본 사양 및 일반 정보
 1. **발 구조**  
 
