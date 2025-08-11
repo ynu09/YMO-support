@@ -66,12 +66,18 @@ Damping Mode(Emergency Stop): L2+B
 ---
 
 ### 모션 동작
-| 모션 | 조작 | 동작 |
+| 모션 | 조작 | 설명 |
 |-----|-----|------------------|  
-| Stand up from a fall | L2+X | 로봇이 뒤집힌 경우 해당 버튼을 눌러 일으킵니다 |
-| Stretch | R2+A | 스트레칭 |
-| Shake Hands | R2+B | 손인사 (FR 다리 올림) |
-
+| Stand up from a fall | L2+X | 로봇이 전도된 경우 일어서기 |
+| Stretch | R2+A | 스트레칭 동작 |
+| Shake Hands | R2+B | 손인사 (앞 우측 다리 올림) |
+| Love | R2+Y | 뒷다리로 앉아 앞다리로 하트 모양 그리기 |
+| Greet | L1+A | 뒷다리로 앉아 앞다리 위아래로 흔들기 |
+| Jump Forward | R1+A | 약 1m 앞으로 점프 |
+| Sit Down | R1+B | 뒷다리로 앉기|
+| Pounce | R1+X | ⚠️ 앞으로 뛰며 펀치 동작 |
+| Dance 1 | L1+B | 짧은 시간의 지정 동작 댄스 |
+| Dance 2 | L1+X | 긴 시간의 지정 동작 댄스 |
 
 ---
 
