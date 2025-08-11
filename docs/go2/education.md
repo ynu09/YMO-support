@@ -58,16 +58,9 @@ Damping Mode(Emergency Stop): L2+B
 
 ---
 
-### Accompanying 모드🐕
-<video width="700" controls>
-<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_6_en.mp4">
-</video>
-
----
-
 ### 모션 동작
 | 모션 | 조작 | 설명 |
-|-----|-----|------------------|  
+|-----|-----|-----------------------------------------|  
 | Stand up from a fall | L2+X | 로봇이 전도된 경우 일어서기 |
 | Stretch | R2+A | 스트레칭 동작 |
 | Shake Hands | R2+B | 손인사 (앞 우측 다리 올림) |
@@ -78,6 +71,13 @@ Damping Mode(Emergency Stop): L2+B
 | Pounce | R1+X | ⚠️ 앞으로 뛰며 펀치 동작 |
 | Dance 1 | L1+B | 짧은 시간의 지정 동작 댄스 |
 | Dance 2 | L1+X | 긴 시간의 지정 동작 댄스 |
+
+---
+
+### Accompanying 모드🐕
+<video width="700" controls>
+<source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_6_en.mp4">
+</video>
 
 ---
 
