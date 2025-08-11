@@ -53,14 +53,18 @@ Damping Mode(Emergency Stop): L2+B
 ---
 
 ### 자세 전환
+
 | 모드 | 조작 | 자세 |
 |-----|-----|-------|
 | Pose | SELECT | 서기 (모드 1🔹) |
 | Unlock/Default Gait | START | 관절 잠금 해제 → 이동 (모드 2🔸) |
 | Running | L2 + START | 달리기 모드 진입 (해제하려면, START 버튼 다시 누르기) |
 | Stand Lock/Low Down | L2+A | 관절 잠금 → 한 번 더 누르면 엎드리기 → 한 번 더 누르면, 서는 자세로 복원 |
+| Hand Stand | Double Click R1 | 물구나무서기 |
+| Erect | Double Click R2 | 두 발로 걷기 |
 
 ### 스틱 조작
+
 | 스틱 | 조작 | 설명 |
 |-----|-----|--------------------------------------|
 | 왼쪽 | 앞뒤 | 앞뒤로 이동 (모드 2🔸) / 엎드리기 (모드 1🔹) |
@@ -72,6 +76,7 @@ Damping Mode(Emergency Stop): L2+B
 ---
 
 ### 모션 동작
+
 | 모션 | 조작 | 설명 |
 |-----|-----|-----------------------------------------|  
 | Stand up from a fall | L2+X | 로봇이 전도된 경우 일으키기 |
@@ -84,12 +89,11 @@ Damping Mode(Emergency Stop): L2+B
 | Pounce | R1+X | ⚠️ 앞으로 뛰며 펀치 동작 |
 | Dance 1 | L1+B | 짧은 시간의 지정 동작 댄스 |
 | Dance 2 | L1+X | 긴 시간의 지정 동작 댄스 |
-| Hand Stand | Double Click R1 | 물구나무서기 |
-| Erect | Double Click R2 | 두 발로 걷기 |
 
 ---
 
 ### 기능 전환
+
 | 모드 | 조작 | 설명 |
 |-----|-----|---------------------------------|  
 | Searchlight Switch | L2 + SELECT | 탐조등 켜기 |
