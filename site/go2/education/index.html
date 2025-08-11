@@ -397,6 +397,24 @@
           <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
+      자세 전환
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      스틱 조작
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
       모션 동작
     </span>
   </a>
@@ -437,7 +455,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       언바인드 방법
     </span>
@@ -446,7 +464,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       펌웨어 업데이트 방법
     </span>
@@ -464,7 +482,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       음성인식
     </span>
@@ -473,7 +491,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       블록코딩
     </span>
@@ -1229,6 +1247,24 @@
           <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
+      자세 전환
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      스틱 조작
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
       모션 동작
     </span>
   </a>
@@ -1269,7 +1305,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       언바인드 방법
     </span>
@@ -1278,7 +1314,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       펌웨어 업데이트 방법
     </span>
@@ -1296,7 +1332,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       음성인식
     </span>
@@ -1305,7 +1341,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       블록코딩
     </span>
@@ -1411,7 +1447,57 @@
 <p>Damping Mode(Emergency Stop): L2+B  </p>
 <p>로봇이 초기 자세를 잘못 잡아 비틀거리거나, 조작 실수로 위험한 상황이 발생할 경우 비상 정지 버튼을 눌러 관절의 힘을 해제합니다.</p>
 <hr />
-<h3 id="_3">모션 동작</h3>
+<h3 id="_3">자세 전환</h3>
+<table>
+<thead>
+<tr>
+<th>모드</th>
+<th>조작</th>
+<th>자세</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pose</td>
+<td>SELECT</td>
+<td>서기 (모드 1*)</td>
+</tr>
+<tr>
+<td>Unlock/Default Gait</td>
+<td>START</td>
+<td>관절 잠금 해제 → 이동 (모드 2*)</td>
+</tr>
+<tr>
+<td>Running</td>
+<td>L2 + START</td>
+<td>달리기 모드 진입 (해제하려면, START 버튼 다시 누르기)</td>
+</tr>
+<tr>
+<td>Stand Lock/Low Down</td>
+<td>L2+A</td>
+<td>관절 잠금 → 한 번 더 누르면 엎드리기 → 한 번 더 누르면, 서는 자세로 복원</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">스틱 조작</h3>
+<table>
+<thead>
+<tr>
+<th>스틱</th>
+<th>조작</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>왼쪽</td>
+<td>앞뒤</td>
+<td>앞뒤로 이동 (모드 2<em>) / 엎드리기 (모드 1</em>)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_5">모션 동작</h3>
 <table>
 <thead>
 <tr>
@@ -1493,13 +1579,13 @@
 </video>
 
 <hr />
-<h3 id="_4">언바인드 방법</h3>
+<h3 id="_6">언바인드 방법</h3>
 <p>로봇은 1대의 스마트폰과만 연동됩니다. 다른 스마트폰에서 사용하려면 기존 연결을 먼저 언바인드해야 합니다.</p>
 <p><img src="/YMO-support/images/g1_education/unbind1.png" width="700" height="auto">
 <img src="/YMO-support/images/g1_education/unbind2.png" width="700" height="auto">
 <img src="/YMO-support/images/g1_education/unbind3.png" width="700" height="auto"></p>
 <hr />
-<h3 id="_5">펌웨어 업데이트 방법</h3>
+<h3 id="_7">펌웨어 업데이트 방법</h3>
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_3_en.mp4" type="video/mp4">
 </video>
@@ -1524,7 +1610,7 @@
 </video>
 
 <hr />
-<h3 id="_6">음성인식</h3>
+<h3 id="_8">음성인식</h3>
 <ol>
 <li>“Function-BenBen”으로 들어갑니다.</li>
 <li>
@@ -1538,7 +1624,7 @@ ex) 명령 예시: "Take one step forward"</p>
 </video>
 
 <hr />
-<h3 id="_7">블록코딩</h3>
+<h3 id="_9">블록코딩</h3>
 <video width="700" controls>
 <source src="https://oss-global-cdn.unitree.com/static/go2_tutorial/go2_tutorial_10_en.mp4" type="video/mp4">
 </video>
