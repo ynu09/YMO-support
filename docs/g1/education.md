@@ -27,26 +27,24 @@
 
 ### **[ON]** 눕혀둔 로봇 일으키는 방법
 1. 로봇 전원 ON (버튼 짧게 1번, 길게 1번 - 3초 정도 누릅니다.)
-2. Zero Moment Mode: L2+Y
-3. Damping Mode: L2+B
-4. Lie → Stand: L2+X
+2. Damping Mode: L2+B
+3. Lie → Stand: L2+X
 
 ---
 
 ### **[ON]** 거치대에 걸린 로봇 걷게 하는 방법
 1. 로봇 전원 ON
-2. Zero Moment Mode: L2+Y
-3. Damping Mode: L2+B
-4. Locked Standing: L2+윗방향  
+2. Damping Mode: L2+B
+3. Locked Standing: L2+윗방향  
     
     : 로봇 서는 자세로 전환
 
-5. 로봇 발이 바닥에 닿도록 여유있게 거치대에서 내려주기 
-6. 1-Dof-Waist: R1+X  
+4. 로봇 발이 바닥에 닿도록 여유있게 거치대에서 내려주기 
+5. 1-Dof-Waist: R1+X  
     
     : 로봇 중심 잡는 모드
 
-7. 어깨에 양쪽의 락커를 해제합니다.
+6. 어깨에 양쪽의 락커를 해제합니다.
 
 ---
 
@@ -74,8 +72,7 @@
     
     : 로봇 관절 힘 풀어주는 모드
     
-3. Damping Mode: L2+B
-4. 로봇 전원 OFF
+3. 로봇 전원 OFF
 
 ---
 
