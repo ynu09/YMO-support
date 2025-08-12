@@ -33,8 +33,8 @@
 ---
 
 ### **[ON]** 거치대에 걸린 로봇 걷게 하는 방법
-1. 로봇 전원 ON
-2. Damping Mode: L2+B
+1. 로봇 전원 ON - Zero toque: 모터에 힘 풀린 상태 (LED: 보라색)
+2. Damping Mode: L2+B (LED: 노란색) - 모터에 힘 들어감
 3. Locked Standing: L2+윗방향  
     
     : 로봇 서는 자세로 전환
