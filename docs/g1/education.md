@@ -39,7 +39,8 @@
     
     - 모터에 힘 풀린 상태 (LED: 보라색)
 
-2. Damping Mode: L2+B (LED: 노란색) - 모터에 힘 들어감
+2. Damping Mode: L2+B  
+    - 모터에 힘 들어간 상태 (LED: 노란색) 
 3. Locked Standing: L2+윗방향  
     
     : 로봇 서는 자세로 전환
