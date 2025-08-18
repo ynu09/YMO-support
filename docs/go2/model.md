@@ -8,3 +8,7 @@
 | Go2 Edu Plus | 2차 개발 가능, Jetson Orin NX (100tops) | 개발용 | 16GB |  
 | <span style="color: red; font-weight: bold;">[추천‼️]</span> Go2 Edu Plus + Mid360 (LiDAR) | 2차 개발 가능, Jetson Orin NX (100tops) + Mid360 LiDAR | 개발용 | Navigation용 LiDAR |  
 | Go2 Edu Plus + Hesai XT16 (LiDAR) | 2차 개발 가능, Jetson Orin NX (100tops) + Hesai XT16 LiDAR | 개발용 | Navigation용 LiDAR |  
+
+- Air / Pro 모델은 Remote Controller 별매
+- Air / Pro 모델은 Standard Battery 기본 제공 (Long Range Batttery 장착 가능)
+- Edu Line은 Long Range Battery 기본 제공
