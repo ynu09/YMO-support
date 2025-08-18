@@ -20,9 +20,7 @@
 
 2. Motor 고장  
 
-    : 부품을 Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.  
-
-    ⚠️ <span style="color: blue;">몸통 전체 분해 작업이 필요합니다.</span>  
+    : ⚠️ <span style="color: blue;">몸통 전체 분해 작업이 필요합니다.</span>  
     
     - Body Motor  
     - Thigh Motor  
@@ -30,9 +28,7 @@
 
 3. 다리 고장
     
-    : 부품이 없는 경우, Unitree 본사에 요청해야 하기 때문에 수리 기간이 1~2개월 이상 소요될 수 있습니다. 양해 부탁드립니다.
-    
-    ⚠️ <span style="color: blue;">모터 수리에 비해 비교적 간단합니다.</span>  
+    : ⚠️ <span style="color: blue;">모터 수리에 비해 비교적 간단합니다.</span>  
     
     - FL: front left - 앞 왼쪽 (재고 2개)
     - FR: front right - 앞 오른쪽 (재고 1개)
