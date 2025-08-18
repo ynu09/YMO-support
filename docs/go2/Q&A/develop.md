@@ -71,3 +71,10 @@
 3. **무선 상태에서 개발이 가능한가요?**  
 
     : 무선 연결 상태에서는 개발이 제한됩니다.
+
+---
+
+### Basic services
+1. **/lowstate 메시지 내 각 component에 대한 설명 및 단위**    
+    ![lowstate](/YMO-support/images/g1_lowstate.png)  
+    참고: 🔗 [https://support.unitree.com/home/en/developer/Basic_services](https://support.unitree.com/home/en/developer/Basic_services)  

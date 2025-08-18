@@ -982,6 +982,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      workspace 생성
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#1-z1_controller" class="md-nav__link">
     <span class="md-ellipsis">
       1️⃣ z1_controller
@@ -1212,6 +1221,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      workspace 생성
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#1-z1_controller" class="md-nav__link">
     <span class="md-ellipsis">
       1️⃣ z1_controller
@@ -1335,9 +1353,14 @@
 <p><a href="https://github.com/unitreerobotics/unitree_ros">다운로드 - unitree_ros</a></p>
 </li>
 </ol>
+<h3 id="workspace">workspace 생성</h3>
+<p>: ROS 패키지를 구성할 워크스페이스를 생성합니다.  </p>
+<p><code>$ mkdir -p unitree_ws/src</code></p>
 <h3 id="1-z1_controller">1️⃣ z1_controller</h3>
 <p>✅ 초기 실행 시 build 디렉터리 생성 후 컴파일하면 <code>z1_ctrl</code> 실행파일을이 생성됩니다.  </p>
-<pre><code>$ cd z1_controller    
+<pre><code>$ cd ~/unitree_ws/src
+$ git clone https://github.com/unitreerobotics/z1_controller.git
+$ cd z1_controller    
 $ mkdir build &amp; cd build
 $ cmake ..
 $ make
@@ -1360,14 +1383,7 @@ $ make
 <p>example_py: z1_sdk의 python 버전 인터페이스를 포함합니다. </p>
 <h3 id="3-ros-simulation">3️⃣ ROS simulation 연동</h3>
 <ol>
-<li>
-<p>workspace 생성</p>
-<p>: ROS 패키지를 구성할 워크스페이스를 생성합니다. </p>
-<p><code>$ mkdir -p unitree_ws/src</code></p>
-</li>
-<li>
-<p>src 폴더 안에 unitree_ros 폴더를 넣어줍니다.  </p>
-<ul>
+<li>src 폴더 안에 unitree_ros 폴더를 넣어줍니다.  <ul>
 <li>경로: ~/unitree_ws/src/unitree_ros  </li>
 </ul>
 </li>
