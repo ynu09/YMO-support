@@ -47,9 +47,16 @@ Ubuntu 18.04 이상의 X86 아키텍처 기반 Linux 플랫폼에서 실행 가�
 
     [다운로드 - unitree_ros](https://github.com/unitreerobotics/unitree_ros)
 
+### workspace 생성
+: ROS 패키지를 구성할 워크스페이스를 생성합니다.  
+
+```$ mkdir -p unitree_ws/src```
+
 ### 1️⃣ z1_controller
 ✅ 초기 실행 시 build 디렉터리 생성 후 컴파일하면 ```z1_ctrl``` 실행파일을이 생성됩니다.  
 
+    $ cd ~/unitree_ws/src
+    $ git clone https://github.com/unitreerobotics/z1_controller.git
     $ cd z1_controller    
     $ mkdir build & cd build
     $ cmake ..
@@ -71,19 +78,13 @@ examples: 예제 코드로 SDK 사용법을 설명합니다.
 example_py: z1_sdk의 python 버전 인터페이스를 포함합니다. 
 
 ### 3️⃣ ROS simulation 연동
-1. workspace 생성
-    
-    : ROS 패키지를 구성할 워크스페이스를 생성합니다. 
-
-    ```$ mkdir -p unitree_ws/src```
-
-2. src 폴더 안에 unitree_ros 폴더를 넣어줍니다.  
+1. src 폴더 안에 unitree_ros 폴더를 넣어줍니다.  
     - 경로: ~/unitree_ws/src/unitree_ros  
-3. src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  
+2. src 폴더 안에 unitree_legged_msgs를 넣어줍니다.  
     - [다운로드 - unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real) 
     - 경로: ~/unitree_ws/src/unitree_legged_msgs  
 
-4. 빌드 및 환경 설정   
+3. 빌드 및 환경 설정   
 
         $ cd ~/unitree_ws
         $ catkin_make
