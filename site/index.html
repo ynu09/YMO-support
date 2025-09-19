@@ -45,7 +45,24 @@
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
-      
+    <!-- 자동 리디렉션 추가 -->
+    <meta http-equiv="refresh" content="3; url=https://miye-kim.github.io/YMO-support/">
+    <script>
+      // 3초 후 새 사이트로 이동
+      setTimeout(function() {
+        window.location.href = "https://miye-kim.github.io/YMO-support/";
+      }, 3000);
+
+      // 이동 안될 경우 알림 + 링크 제공
+      window.onload = function() {
+        setTimeout(function() {
+          if (window.location.href !== "https://miye-kim.github.io/YMO-support/") {
+            alert("새로운 사이트로 이동하지 못했습니다. 클릭하면 이동합니다.");
+            window.location.href = "https://miye-kim.github.io/YMO-support/";
+          }
+        }, 4000);
+      }
+    </script>      
 
     
     
