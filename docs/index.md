@@ -1,3 +1,10 @@
+<!-- 자동 리디렉션 -->
+<meta http-equiv="refresh" content="0; url=https://miye-kim.github.io/YMO-support/">
+<script>
+  window.location.href = "https://miye-kim.github.io/YMO-support/";
+</script>
+<p>이동되지 않으면 <a href="https://miye-kim.github.io/YMO-support/">여기</a>를 클릭하세요.</p>
+
 # YMO 영인모빌리티 기술자료실
 
 ![YMO 로고](/YMO-support/images/ymo.png)
