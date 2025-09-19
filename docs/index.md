@@ -1,11 +1,29 @@
 <!-- 자동 리디렉션 -->
+<div style="
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff8c6;
+    border: 2px solid #f0c040;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    z-index: 9999;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+">
+    담당자 변경으로 웹사이트 주소가 이전되었습니다.<br>
+    5초 후 이동하지 않으면 <a href="https://miye-kim.github.io/YMO-support/" 
+    style="color: #d9534f; text-decoration: underline; font-size: 1.2em;">여기</a>를 클릭하세요.
+</div>
+
 <meta http-equiv="refresh" content="5; url=https://miye-kim.github.io/YMO-support/">
 <script>
   setTimeout(function() {
     window.location.href = "https://miye-kim.github.io/YMO-support/";
   }, 5000);
 </script>
-<p>관리 담당자가 변경되어, 다른 웹사이트로 이동합니다. 자동으로 이동하지 않으면 <a href="https://miye-kim.github.io/YMO-support/">여기</a>를 클릭하세요.</p>
 
 # YMO 영인모빌리티 기술자료실
 
